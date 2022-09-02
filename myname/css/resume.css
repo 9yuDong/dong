@@ -1,0 +1,60 @@
+@charset "utf-8";
+body {
+    font-family: 'Roboto','Noto Sans KR', sans-serif;
+    background-color: #ebecee;
+}
+#wrap {
+    width: 1280px;
+    margin:0 auto;
+    padding: 76px 60px;
+}
+/* Header */
+header {
+    text-align: center;
+    margin-bottom: 36px;
+}
+header h1 {
+    font-size: 52px;
+    color:#b71d43;
+    font-weight: 600;
+}
+header .h_title{
+    font-size: 12px;
+    color:#b71d43;
+}
+header .h_title{
+    font-size: 18px;
+    color:#4f4f51;
+    margin-bottom: 24px;
+}
+/* 각 section 공통 css */
+section {
+    color:#3b3d3f;
+    line-height: 2;
+    margin-bottom: 80px;
+}
+section h2 {
+    font-size: 18px;
+    font-weight: 700;
+    color: #b71d43;
+    border-bottom: 1px solid #d1d2f4;
+    padding-bottom: 14px;
+    margin-bottom: 22px;
+}
+section span {
+    font-weight: 700;
+}
+/* footer */
+footer {
+    text-align: center;
+    color:#b71d43;
+}
+footer span {
+    font-weight: 700;
+}
+
+/* 그림자 속성 */
+header h1 {
+    box-shadow: 0 0 4px #ccc;
+    text-shadow: 0 0 10px rgba(0,0,0,0.5);
+}

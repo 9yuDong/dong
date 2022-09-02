@@ -1,0 +1,85 @@
+@charset "utf-8";
+#wrap {
+    width: 1000px;
+    margin: 0 auto;
+    text-align: center;
+    /* 위치기준값 */
+    position: relative;
+}
+/* Header */
+header {
+    height: 80px;
+    background-color: orange;
+}
+/* 플롯해제 */
+header:after {
+    content: "";
+    display: block;
+    clear: both;
+}
+header h1 {
+    width: 150px;
+    height: 80px;
+    line-height: 80px;
+    background-color: #ccc;
+    /* 플롯 */
+    float: left;
+}
+header .gnb {
+    width: 850px;
+    height: 80px;
+    line-height: 80px;
+    background-color: orangered;
+    /* 플롯 */
+    float: right;
+}
+header .gnb li {
+    /* 플롯 */
+    float: left;
+    margin-left: 40px;
+}
+header .gnb li a:hover {
+    color: #fff;
+}
+/* Contents */
+/* 플롯해제 */
+article:after {
+    content: "";
+    display: block;
+    clear: both;
+}
+article #left_side {
+    width: 300px;
+    height: 500px;
+    line-height: 500px;
+    background-color: pink;
+    /* 플롯 */
+    float: left;
+}
+article #right_side {
+    width: 700px;
+    height: 500px;
+    line-height: 500px;
+    background-color: green;
+    /* 플롯 */
+    float: right;
+}
+/* Footer */
+footer {
+    height: 80px;
+    line-height: 80px;
+    background-color: yellowgreen;
+}
+
+/* 포지션 Aside */
+aside {
+    width: 80px;
+    height: 200px;
+    line-height: 200px;
+    background-color: #33b4bf;
+    /* 포지션 */
+    position: absolute;
+    left: 1000px;
+    top: 0;
+    z-index: 1;
+}

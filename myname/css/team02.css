@@ -1,0 +1,100 @@
+#wrap {
+    width: 1440px;
+    height: 900px;
+    margin: 0 auto;
+    border:  solid 2px black;
+
+}
+span{color: gray;}
+/* 해더 */
+header h1 {
+    font-size: 32px;
+    font-weight: 700;
+    margin-left: 30px;
+    margin-top: 30px;
+    /* 플롯 */
+    float: left;
+}
+header .top_logo {
+    font-size: 20px;
+    font-weight: 700;
+    float: right;
+    margin-right: 20px;
+    margin-top: 20px;
+}
+header .top_logo p{
+    float: left;
+    padding-right: 5px;
+}
+header .top_logo img{
+    float: left;
+    margin-top: 5px;
+}
+/* 해더끝 */
+/* 메인시작 */
+section  {
+    font-size:24px;
+    font-weight: 700;
+    float: right;
+    padding-top: 50px;
+    width:530px;
+}
+.main_img {
+    float: left;
+    margin-top: 180px;
+    margin-left: 150px;
+   
+}
+.main_img img{
+    border-radius: 20px;
+   
+}
+.main_content {
+    float: right;
+    margin-right: 150px;
+    margin-top: 100px;
+}
+.main_content h2{
+    font-size: 35px;
+    font-weight: 700;
+    padding-bottom: 50px;
+}
+.main_content section P{
+    font-size: 30px;
+    font-weight: 700;
+    
+}
+.main_content table {
+    font-size: 14px;
+    padding-top: 100px;
+    padding-right: 5px;
+    
+}
+.main_content  tr td{
+    padding-bottom: 20px;
+    float: left;
+    margin-left: 15px;
+    padding-right: 5px;
+    
+}
+.main_content .logos  {
+    padding-right: 10px;
+    padding-bottom: 50px;
+}
+.main_content .logos  img{
+    padding-right: 10px;
+}
+.contens_p {
+    padding-top: 35px;
+}
+.contens_p p{
+    padding-top: 20px;
+    font-size: 14px;
+    color: gray;
+}
+/* 하단 */
+footer{
+    text-align: center;
+    margin-top: 15px;
+    color: gray;
+}
