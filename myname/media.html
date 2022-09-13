@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>모바일 퍼스트, 미디어쿼리 실습</title>
+    <link rel="stylesheet" href="./css/reset.css">
+    <style>
+         /* 공통 css */
+        #wrap {
+            width: 90%%;
+            height: 100%;
+            margin: 0 auto;
+            background-color: rgb(192,192,192);   
+            text-align: center;
+            
+        }
+        h1 {
+            color: blue;
+            font-size: 1rem;
+            padding: 25px 0;
+            
+        }
+        ul{
+            margin-bottom: 15px;
+    
+        }
+        ul img {
+            width: 90%;
+        }
+
+        p {
+            margin: 0 auto;
+            font-size: 0.8rem;
+            text-align: left;
+
+        }
+        /* 모바일 미디어 쿼리 768px 이상 */
+        @media screen and (min-width: 768px){
+            #wrap {
+                background-color: rgb(47,79,79);
+                width: 90%;
+            }
+            h1 {
+
+                font-size: 2rem;
+                color: wheat;
+            }
+            ul::after {
+                content: "";
+                display: block;
+                clear: both;
+            }
+
+            }
+            li:nth-child(1){
+                width: 50%;
+                float: left;
+     
+            }
+            li:nth-child(2){
+                width: 50%;
+                float: right;
+
+            }
+        
+
+
+        
+        /* pc 미디어 쿼리 1024px 이상 */
+        @media screen and (min-width: 1024px){
+            #wrap {
+                background-color: rgb(47,79,79);
+                width: 100%;
+            }
+            h2 {
+                font-size: 2rem;
+            }
+            .textbox {
+                width: 90%;
+                margin: 0 auto;   
+            }
+            p {
+                border: 1px solid white;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div id="wrap">
+        <h1>동전 하나로도  행복했던 구멍가게의 날들</h1>
+        <ul>
+           <li><img src="./images/img1.jpg" alt="이미지"></li>
+           <li><img src="./images/img2.jpg" alt="이미지"></li>       
+        </ul>
+        <div class="textbox">
+            <p>
+                나는 믿는다고 하면서 의심도 합니다 나는 부족하다고 하면서 잘난체도 합니다 나는 마음을 열어야 한다고 하면서 닫기도 합니다 나는 정직하다고 다짐하면서 꾀를 내기도 합니다 나는 떠난다고 하면서 돌아와 있고
+                다시 떠날 생각을 합니다 나는 참아야 한다고 하면서 화를 내고 시원해 합니다 나는 눈물을 흘리다가 우스운 일을 생각하기도 합니다 나는 외로울수록 바쁜 척 합니다 나는 같이 가자고 하면 혼자 있고 싶고 혼자있으
+                라 하면 같이 가고 싶어집니다. 나는 봄에는 봄이 좋다 하고 가을에는 가을이 좋다 합니다 나는 남에게 쉬는 것이 좋다고 말하면서 계속 일만 합니다 나는 희망을 품으면서 불안해하기도 합니다 나는 벗어나고 싶어 하면서 소속되기를 바랍니다 나는 변화를 좋아하지만 안정도 좋아합니다
+                
+            </p>
+            <br>
+            <p>
+                나는 절약하자고 하지만 낭비할때도 있습니다 나는 약속을 하고나서 지키고 싶지 않아 핑계를 찾기도 합니다 나는 남의 성공에 박수를 치지만 속으로는 질투도 합니다 
+                나는 실패도 도움이 된다고 말하지만 내가 실패하는 것은 두렵습니다 나는 너그러운 척하지만 까다롭습니다 
+                나는 감사의 인사를 하지만 불평도 털어놓고 싶습니다 나는 사람들 만나기를 좋아합지만 두렵기도 합니다 나는 사랑한다는 말하지만 미워할 때도 있습니다 
+            </p>
+        </div>
+    </div>
+</body>
+</html>
