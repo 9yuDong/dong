@@ -1,370 +1,415 @@
 <!DOCTYPE html>
 <html lang="ko">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/font.css">
-    <link rel="stylesheet" href="css/reset.css">
-    <title>teamproject</title>
-    <style>
-        #wrap {
-            width: 100%;
-            margin: 0 auto;
-            
-            min-width: 1280px;
-        }
-        .w1280 {
-            width: 1280px;
-            margin: 0 auto;
-        }
-        /* 해더 */
-        .bg_1 {
-            background:url("images/slide_back_img.png");
-            background-repeat:no-repeat;
-            background-size: cover ;
-            height: 700px;
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="css/font.css">
+        <link rel="stylesheet" href="css/reset.css">
+        <title>teamproject</title>
+        <style>
+            #wrap {
+                width: 100%;
+                margin: 0 auto;
 
-        }
-        header nav .logo_img img{
-            /* 플롯 */
-            float: left;
-            margin-top: 20px;
-        }
-        
-        header nav ul {
-            /* 플롯 */
-            float:right;
-            color: gray;
-        }
-        header nav ul li{
-            /* 플롯 */
-            float: left;
-            margin-top: 35px;
-            padding-left:15px;
-        }
-        header nav ul li:hover{
-            font-weight: 700;
-            color: white;
-        }
-        header nav ul img{
-            /* 플롯 */
-            margin-top: 35px;
-            padding-left:65px;
-        }
+                min-width: 1280px;
+            }
+            .w1280 {
+                width: 1280px;
+                margin: 0 auto;
+            }
+            /* 해더 */
+            .bg_1 {
+                background: url("images/slide_back_img.png");
+                background-repeat: no-repeat;
+                background-size: cover;
+                height: 700px;
 
-        header h1 {
-            color: white;
-            font-weight: 900;
-            font-size: 64px;
-            padding-top: 280px;
-            padding-left: 70px;
-            letter-spacing: 5px;
-            line-height: 70px;
-            
-            
-        }
-        header  p {
-            color: gray;
-            padding-top: 10px;
-            padding-left: 70px;
-            
-        }
-        header button {
-            border: 0;
-            outline: 0;
-            width: 150px;
-            height: 50px;
-            background-color: rgb(255, 205, 54);
-            margin-top: 10px;
-            margin-left: 70px;
-            
-        }
+            }
+            header nav .logo_img img {
+                /* 플롯 */
+                float: left;
+                margin-top: 20px;
+            }
 
-        /* 콘텐츠 영역 */
-        .card_box {
-            width: 100%;
-            height: 560px;
-            color: rgb(108, 108, 108);
-            background-color: rgb(181, 181, 181);
-        }
-        .card {
-            width: 1280px;
-            margin: 0 auto;
-            
-            position: relative;
-        }
-        .card_01 {
-            /* 포지션 */
-            position: absolute;
-            left: 0px;
-            top: -70px;
-            z-index: 1;
-            
-        }
-        .card_02 {
-            /* 포지션 */
-            position: absolute;
-            left: 440px;
-            top: -70px;
-            z-index: 1;
-        }
-        .card_03 {
-            /* 포지션 */
-            position: absolute;
-            right: 0;
-            top: -70px;
-            z-index: 1;
-        }
-        article h2 {
-            width: 400px;
-            padding-top: 480px;
-            /* 플롯 */
-            float: left;
-        }
-        article p{
-            width: 150px;
-            padding-top: 480px;
-            /* 플롯 */
-            float: right;
-            /* 포지션 위치설정 */
-            position: relative;
-        }
-        article p img {
-            /* 포지션 */
-            position: absolute;
-            right: 0;
-            bottom: 4px;
-            z-index: 1;
-        }
-        article strong:hover{
-            font-size: 24px;
-            font-weight: bold;
-            color: black;
-            cursor: pointer;
-        }
-        .back_white{
-            width: 100%;
-            background-color: #fff;
-        }
-        .textbox {
-            height: 800px;
-            font-size: 18px;
-            line-height: 25px;
-            letter-spacing: 0.5px;
-            padding-top: 50px;
-            padding-bottom: 50px;
-            text-align: center;
-            color: rgb(108, 108, 108);
-        }
-        .photo {
-            height: 550px;
-            background-image: url('../images/mov_back.jpg');
-            background-size: cover;
-            background-repeat: no-repeat;
-            /* 포지션 위치설정 */
-            position: relative;   
-        }
-        #img_position {
-            /* 포지션 설정 */
-            position: absolute;
-            left: 425px;
-            top: 310px;
-            z-index: 1;
-        }
-        .bg_gray {
-            width: 100%;
-            background-color: rgb(220,220,220);
-        }
-        .inquiry{
-            padding-top: 70px;
-            height: 650px;
-        }
-        .why {
-            height: 1000px;
-            padding-top: 400px;
-            background-color: white;
-        }
-        .bg_yellow {
-            width: 100%;
-            background-color: rgb(255,204,51);
-        }
+            header nav ul {
+                /* 플롯 */
+                float: right;
+                color: gray;
+            }
+            header nav ul li {
+                /* 플롯 */
+                float: left;
+                margin-top: 35px;
+                padding-left: 15px;
+            }
+            header nav ul li:hover {
+                font-weight: 700;
+                color: white;
+            }
+            header nav ul img {
+                /* 플롯 */
+                margin-top: 35px;
+                padding-left: 65px;
+            }
 
+            header h1 {
+                color: white;
+                font-weight: 900;
+                font-size: 64px;
+                padding-top: 280px;
+                padding-left: 70px;
+                letter-spacing: 5px;
+                line-height: 70px;
 
-        .bottom_menu1 {
-            width: 500px;
-            margin-top: 100px;
-            /* 플롯 */
-            float: left;
-        }
-        .bottom_menu1 p{
-            font-size: 14px;
-            padding: 10px 0 30px;
-            color: gray;
-        }
-        .bottom_menu1>a {
-            padding-right: 15px;
-        }
-        .bottom_menu2 {
-            width: 290px;
-            margin-top: 100px;
-            margin-bottom: 70px;
-            /* 플롯 */
-            float: left;
-        }
-        .bottom_menu3 {
-            width: 290px;
-            margin-top: 100px;
-            /* 플롯 */
-            float: left;
-        }
-        .bottom_menu4 {
-            width: 100px;
-            margin-top: 100px;
-            /* 플롯 */
-            float: left;
-        }
-        .bg_black {
-            background: black;
-            width: 100%;
-        }
+            }
+            header p {
+                color: gray;
+                padding-top: 10px;
+                padding-left: 70px;
+
+            }
+            header button {
+                border: 0;
+                outline: 0;
+                width: 150px;
+                height: 50px;
+                background-color: rgb(255, 205, 54);
+                margin-top: 10px;
+                margin-left: 70px;
+
+            }
+
+            /* 콘텐츠 영역 */
+            .card_box {
+                width: 100%;
+                height: 560px;
+                color: rgb(108, 108, 108);
+                background-color: rgb(181, 181, 181);
+            }
+            .card {
+                width: 1280px;
+                margin: 0 auto;
+
+                position: relative;
+            }
+            .card_01 {
+                /* 포지션 */
+                position: absolute;
+                left: 0;
+                top: -70px;
+                z-index: 1;
+
+            }
+            .card_02 {
+                /* 포지션 */
+                position: absolute;
+                left: 440px;
+                top: -70px;
+                z-index: 1;
+            }
+            .card_03 {
+                /* 포지션 */
+                position: absolute;
+                right: 0;
+                top: -70px;
+                z-index: 1;
+            }
+            article h2 {
+                width: 400px;
+                padding-top: 480px;
+                /* 플롯 */
+                float: left;
+            }
+            article p {
+                width: 150px;
+                padding-top: 480px;
+                /* 플롯 */
+                float: right;
+                /* 포지션 위치설정 */
+                position: relative;
+            }
+            article p img {
+                /* 포지션 */
+                position: absolute;
+                right: 0;
+                bottom: 4px;
+                z-index: 1;
+            }
+            article strong:hover {
+                font-size: 24px;
+                font-weight: bold;
+                color: black;
+                cursor: pointer;
+            }
+            .back_white {
+                width: 100%;
+                background-color: #fff;
+            }
+            .textbox {
+                height: 800px;
+                font-size: 18px;
+                line-height: 25px;
+                letter-spacing: 0.5px;
+                padding-top: 50px;
+                padding-bottom: 50px;
+                text-align: center;
+                color: rgb(108, 108, 108);
+            }
+            .photo {
+                height: 550px;
+                background-image: url("../images/mov_back.jpg");
+                background-size: cover;
+                background-repeat: no-repeat;
+                /* 포지션 위치설정 */
+                position: relative;
+            }
+            #img_position {
+                /* 포지션 설정 */
+                position: absolute;
+                left: 425px;
+                top: 310px;
+                z-index: 1;
+            }
+            .bg_gray {
+                width: 100%;
+                background-color: rgb(220,220,220);
+            }
+            .inquiry {
+                padding-top: 70px;
+                height: 650px;
+            }
+            .why {
+                height: 1000px;
+                padding-top: 400px;
+                background-color: white;
+            }
+            .bg_yellow {
+                width: 100%;
+                background-color: rgb(255,204,51);
+            }
+
+            .bottom_menu1 {
+                width: 500px;
+                margin-top: 100px;
+                /* 플롯 */
+                float: left;
+            }
+            .bottom_menu1 p {
+                font-size: 14px;
+                padding: 10px 0 30px;
+                color: gray;
+            }
+            .bottom_menu1 > a {
+                padding-right: 15px;
+            }
+            .bottom_menu2 {
+                width: 290px;
+                margin-top: 100px;
+                margin-bottom: 70px;
+                /* 플롯 */
+                float: left;
+            }
+            .bottom_menu3 {
+                width: 290px;
+                margin-top: 100px;
+                /* 플롯 */
+                float: left;
+            }
+            .bottom_menu4 {
+                width: 100px;
+                margin-top: 100px;
+                /* 플롯 */
+                float: left;
+            }
+            .bg_black {
+                background: black;
+                width: 100%;
+            }
             /* 푸터 */
-        footer{
-            height: 50px;
-            font-size: 18px;
-            padding-top: 36px;
-            text-align: center;
-            border-top: 1px solid white;
-        }
-
-    </style>
-</head>
-<body>
-    <div id="wrap">
-        <!-- Header -->
-        <div class="bg_1">
-            <header class="w1280">
-                <nav class="cf">
-                    <div class="logo_img">
-                    <img src="./images/logo.png" alt="logo">
-                    </div>
-                    <ul>
-                        <li>WOMAN</li>
-                        <li>MEN</li>
-                        <li>CHILDREN</li>
-                        <li>JEWELPY&WATCHES</li>
-                        <li>BEAUTY</li>
-                        <li>DECOR</li>
-                        <li>GIFTS</li>
-                        <li>STORES</li>
-                        <img src="./images/btn_search.png" alt="btn_search">
-                    </ul>
-                </nav>
-                    
-                        <h1>Father's Day Gifts<br>
-                            Le Petit Prince
-                        </h1>
-                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.<br>
-                            Quos asperiores, sint nostrum quod numquam praesentium pariatur 
-                            maxime corrupti 
-                        </p>
+            footer {
+                height: 50px;
+                font-size: 18px;
+                padding-top: 36px;
+                text-align: center;
+                border-top: 1px solid white;
+                background-color: black;
+            }
+            .B_menu{
+                background-color: black;
+                color: white;
+            }
+        </style>
+    </head>
+    <body>
+        <div id="wrap">
+            <!-- Header -->
+            <div class="bg_1">
+                <header class="w1280">
+                    <nav class="cf">
+                        <div class="logo_img">
+                            <img src="./images/logo.png" alt="logo">
+                        </div>
+                        <ul>
+                            <li>WOMAN</li>
+                            <li>MEN</li>
+                            <li>CHILDREN</li>
+                            <li>JEWELPY&WATCHES</li>
+                            <li>BEAUTY</li>
+                            <li>DECOR</li>
+                            <li>GIFTS</li>
+                            <li>STORES</li>
+                            <img src="./images/btn_search.png" alt="btn_search">
+                        </ul>
+                    </nav>
+                    <h1>Father's Day Gifts<br>
+                        Le Petit Prince
+                    </h1>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.<br>
+                        Quos asperiores, sint nostrum quod numquam praesentium pariatur maxime corrupti
+                    </p>
                     <button>SHOP NOW</button>
                 </header>
-        </div>
-        <!-- /Header -->
-        <!-- main -->
-        <main role="main">
-                  <section class="card_box cf">
-                <div class="card">
-                    <img src="./images/card_box01.jpg" alt="카드이미지1" class="card_01">
-                    <img src="./images/card_box02.jpg" alt="카드이미지2" class="card_02">
-                    <img src="./images/card_box03.jpg" alt="카드이미지3" class="card_03">
-                </div>
-                <article class="w1280 cf">
-                    <h2>
-                        Please call our concierge on <strong>1-800-995-4810</strong>
-                    </h2>
-                    <p>
-                        <a href="#">VIEW ALL SERVICES <img src="./images/arrow_silver.png" alt="이동화살표"></a>
-                    </p>
-                </article>
+            </div>
+            <!-- /Header -->
+            <!-- main -->
+            <main role="main">
+                <section class="card_box cf">
+                    <div class="card">
+                        <img src="./images/card_box01.jpg" alt="카드이미지1" class="card_01">
+                        <img src="./images/card_box02.jpg" alt="카드이미지2" class="card_02">
+                        <img src="./images/card_box03.jpg" alt="카드이미지3" class="card_03">
+                    </div>
+                    <article class="w1280 cf">
+                        <h2>
+                            Please call our concierge on
+                            <strong>1-800-995-4810</strong>
+                        </h2>
+                        <p>
+                            <a href="#">VIEW ALL SERVICES
+                                <img src="./images/arrow_silver.png" alt="이동화살표"></a>
+                        </p>
+                    </article>
                 </section>
                 <section class="bg_white">
                     <div class="card">
                         <p class="textbox">
-                            OIN MONTBLANC Create an account Save details for faster shopping Manage your order history and wish list OIN MONTBLANC Create an <br>
-                            account Save details for faster shopping Manage your order history and wish list OIN MONTBLANC Create an account Save details for <br>
-                            faster shopping Manage your order history and wish list OIN MONTBLANC Create an account Save details for faster shopping.  
+                            OIN MONTBLANC Create an account Save details for faster shopping Manage your
+                            order history and wish list OIN MONTBLANC Create an
+                            <br>
+                            account Save details for faster shopping Manage your order history and wish list
+                            OIN MONTBLANC Create an account Save details for
+                            <br>
+                            faster shopping Manage your order history and wish list OIN MONTBLANC Create an
+                            account Save details for faster shopping.
                             <br><br><br><br>
-                        <img src="./images/aboutus.jpg" alt="몽블랑이미지">
+                            <img src="./images/aboutus.jpg" alt="몽블랑이미지">
                         </p>
                     </div>
                 </section>
-                    <section class="photo">
-                        <a href="#"><img src="./images/mov_clip.jpg" alt="영상" id="img_position"></a>
-                    </section>
-                    <section  class="bg_white">
-                        <p class="why w1280"><img src="./images/why.jpg" alt="why"></p>
-                    </section>
-                    <section class="bg_gray">
-                        <p class="inquiry w1280"><img src="./images/faq.jpg" alt="질문"></p>
-                    </section>
-                    <section class="bg_yellow">
-                        <p class="banner w1280"><img src="./images/banner.jpg" alt="배너"></p>
-                    </section>
+                <section class="photo">
+                    <a href="#"><img src="./images/mov_clip.jpg" alt="영상" id="img_position"></a>
+                </section>
+                <section class="bg_white">
+                    <p class="why w1280"><img src="./images/why.jpg" alt="why"></p>
+                </section>
+                <section class="bg_gray">
+                    <p class="inquiry w1280"><img src="./images/faq.jpg" alt="질문"></p>
+                </section>
+                <section class="bg_yellow">
+                    <p class="banner w1280"><img src="./images/banner.jpg" alt="배너"></p>
+                </section>
 
-                        
+                <div class="B_menu">
                     <section class="w1280 cf">
                         <div class="bottom_menu1">
                             <a href="#"><img src="./images/footer_logo.png" alt="하단로고"></a>
                             <p>
-                                ave s for faster shopping Manage your order his <br>
-                                Create an account Save details for faster shopping <br>
+                                ave s for faster shopping Manage your order his
+                                <br>
+                                Create an account Save details for faster shopping
+                                <br>
                                 history and wish list OIN MONTBLANC Create anr
                             </p>
                             <a href="https://www.facebook.com/MontblancKorea" target="_blank"><img src="./images/sns_facebook.png" alt="페이스북"></a>
                             <a href="https://twitter.com/montblanc_world" target="_blank"><img src="./images/sns_twitter.png" alt="트위터"></a>
                             <a href="https://www.instagram.com/montblanc_kor/" target="_blank"><img src="./images/sns_insta.png" alt="인스타그램"></a>
-                            <a href="https://search.naver.com/search.naver?where=nexearch&sm=top_hty&fbm=0&ie=utf8&query=%EB%AA%BD%EB%B8%94%EB%9E%91" target="_blank"><img src="./images/sns_naver.png" alt="네이버"></a>
+                            <a
+                                href="https://search.naver.com/search.naver?where=nexearch&sm=top_hty&fbm=0&ie=utf8&query=%EB%AA%BD%EB%B8%94%EB%9E%91"
+                                target="_blank"><img src="./images/sns_naver.png" alt="네이버"></a>
                         </div>
                         <dl class="bottom_menu2">
-                            <dt><a href="#">Services</a></dt>
-                            <dd><a href="#">Personal Shopping</a></dd>
-                            <dd><a href="#">Engraving&Embossing</a></dd>
-                            <dd><a href="#">Gift Wrapping</a></dd>
-                            <dd><a href="#">Shipping&Delivery</a></dd>
-                            <dd><a href="#">Returns&Guarantee</a></dd>
-                            <dd><a href="#">Click&Collect</a></dd>
+                            <dt>
+                                <a href="#">Services</a>
+                            </dt>
+                            <dd>
+                                <a href="#">Personal Shopping</a>
+                            </dd>
+                            <dd>
+                                <a href="#">Engraving&Embossing</a>
+                            </dd>
+                            <dd>
+                                <a href="#">Gift Wrapping</a>
+                            </dd>
+                            <dd>
+                                <a href="#">Shipping&Delivery</a>
+                            </dd>
+                            <dd>
+                                <a href="#">Returns&Guarantee</a>
+                            </dd>
+                            <dd>
+                                <a href="#">Click&Collect</a>
+                            </dd>
                         </dl>
                         <dl class="bottom_menu3">
-                            <dt><a href="#">Assistance</a></dt>
-                            <dd><a href="#">Customer Service</a></dd>
-                            <dd><a href="#">Repair Request</a></dd>
-                            <dd><a href="#">FAQ</a></dd>
-                            <dd><a href="#">Watch Care</a></dd>
-                            <dd><a href="#">Leather Care</a></dd>
-                            <dd><a href="#">Jewellery Care</a></dd>
+                            <dt>
+                                <a href="#">Assistance</a>
+                            </dt>
+                            <dd>
+                                <a href="#">Customer Service</a>
+                            </dd>
+                            <dd>
+                                <a href="#">Repair Request</a>
+                            </dd>
+                            <dd>
+                                <a href="#">FAQ</a>
+                            </dd>
+                            <dd>
+                                <a href="#">Watch Care</a>
+                            </dd>
+                            <dd>
+                                <a href="#">Leather Care</a>
+                            </dd>
+                            <dd>
+                                <a href="#">Jewellery Care</a>
+                            </dd>
                         </dl>
                         <dl class="bottom_menu4">
-                            <dt><a href="#">About</a></dt>
-                            <dd><a href="#">Company</a></dd>
-                            <dd><a href="#">Contact us</a></dd>
-                            <dd><a href="#">Career</a></dd>
+                            <dt>
+                                <a href="#">About</a>
+                            </dt>
+                            <dd>
+                                <a href="#">Company</a>
+                            </dd>
+                            <dd>
+                                <a href="#">Contact us</a>
+                            </dd>
+                            <dd>
+                                <a href="#">Career</a>
+                            </dd>
                         </dl>
-                    </section>            
-               </div>
-                </main>
-                <!-- /main -->
-                <!-- Footer -->
-                <hr>
-               
-                <footer class="w1280">
-                        <p>2021 Montblanc</p>
-                </footer>
-                
-                 <!-- /Footer -->
-                
+                    </section>
+                </div>
+            </div>
+        </main>
+        <!-- /main -->
+        <!-- Footer -->
+        <footer>
+            <div class="w1280">
+                <p>2021 Montblanc</p>
+            </div>                
+        </footer>
+        <!-- /Footer -->
     </div>
-    
 </body>
 </html>
