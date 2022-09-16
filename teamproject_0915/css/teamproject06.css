@@ -1,0 +1,193 @@
+@charset "utf-8";
+body {
+    font-family: 'Noto Sans KR', sans-serif;
+}
+/* sava area */
+.w1132 {
+    width: 1132px;
+    margin: 0 auto;
+}
+#wrap {
+    width: 100%;
+    max-width: 1920px;
+    margin: 0 auto;
+    text-align: center;
+}
+/* 해더 */
+.sec1 {
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+header h1{
+    color: rgb(79, 93, 184);
+    font-size: 35px;
+    float: left;
+    font-weight: 700;
+    
+}
+nav .gnb {
+    float:right;
+    margin-left: 15px;
+}
+nav .gnb li{
+    float: left;
+    padding: 10px;
+}
+nav .gnb li:hover{
+    color:  rgb(79, 93, 184);
+}
+.main_img img {
+    width: 100%;
+}
+/* content */
+.sec2 {
+    height: 400px;
+    padding-top: 3.53356890459364%;
+    border-bottom: 1px solid silver;
+}
+.we_are {
+    height: 100px;
+}
+.we_are  h2{
+    font-size: 35px;
+    color: rgb(79, 93, 184);
+    text-align: left;
+    font-weight: bold;
+    width: 30%;
+    /* 플롯 */
+    float: left;
+}
+.we_are p {
+    width: 70%;
+    font-size: 12px;
+    color: gray;
+    padding-top: 10px;
+    /* 플롯 */
+    float: left;
+    text-align: center;
+    border-left: 1px solid #000;
+    padding-left: 10px;
+}
+.promo{
+    width: 25%;
+    /* 플롯 */
+    float: left;
+}
+.promo p:nth-child(2) {
+    padding: 10px;
+    color: rgb(79, 93, 184);
+}
+.promo p:nth-child(3) {
+    font-size: 0.625em;
+    padding: 10px;
+    color: gray;
+}
+.sec5 h2 {
+    font-size: 2em;
+    height: 100px;
+    font-weight: bold;
+    text-align: left;
+    color: rgb(79, 93, 184);
+}
+.sec5 .img_box img{
+    width: 25%;
+     /* 플롯 */
+     float: left;
+}
+.sec6{
+    margin-top: 400px;
+}
+.sec6 h2{
+    font-size: 2rem;
+    height: 400px;
+    color: rgb(79, 93, 184);
+    margin-left: 25px;
+    font-weight: bold;
+    /* 플롯 */
+    float: left;
+}
+.sec6 .img_box2 {
+    height: 400px;
+    float:right;
+    margin-right: 100px;
+    
+}
+.sec6 .img_box2 .blog {
+    float: right;
+    padding: 0 10px;
+} 
+.sec6 .img_box2 .blog p:nth-child(1) {
+    font-size: 8px;
+    text-align: left;
+    color: gray;
+}
+.sec6 .img_box2 .blog p:nth-child(2) {
+    font-size: 15px;
+}
+/* 텍스트상자 */
+fieldset {
+    height: 350px;
+    border: none;
+    outline: none;
+    
+}
+.contact01 {
+    font-size: 2em;
+    text-align: left;
+    width: 20%;
+    height: 20px;
+    /* 플롯 */
+    float: left;
+}
+.contact02 {
+    border:none;
+    outline: none;
+    width: 40%;
+    /* 플롯 */
+    float: left;
+}
+.contact03 {
+    width: 35%;
+    /* 플롯 */
+    float: right;
+    padding-right: 0;
+    margin-right: 0;
+}
+input, textarea {
+    outline: none;
+    border: none;
+    
+    border-bottom: 1px solid #000;
+}
+input {
+    height: 50px;
+    border-width: 50%;
+}
+textarea {
+    padding-top: 10px;
+}
+.contact03 {
+    text-align: right;
+}
+/* 버튼 */
+button {
+    width: 150px;
+    height: 50px;
+    background-color: rgb(63,81,181);
+    color: #fff;
+}
+.maps {
+    margin-bottom: 150px;
+    
+}
+.maps iframe {
+    width: 1132px
+}
+/* 푸터 */
+footer {
+    background-color: rgb(63,81,181);
+    height: 200px;
+    font-size: 1.5rem;
+    line-height: 200px;
+
+}
