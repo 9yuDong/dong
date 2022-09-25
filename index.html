@@ -1,43 +1,152 @@
 <!DOCTYPE html>
-<html lang="ko">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <style>
-        #wrap {
-            
-        text-align: center;
-        }
-        
-        
-        h1 {
-            color: blue;
-            font-size: 35px;
-         
-        }
-        a {
-         
-         color: red;
-         font-size: 20px;   
-     
-        }
-    </style>
+    <meta name="autor" content="mcssam">
+    <meta name="decsription" content="Portfolio, Float, Montblanc Template">
+    <title>황규동 포트폴리오</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="shortcut icon" href="./images/favicon/montblanc_fav32.png">
+    <link rel="apple-touch-icon=precomposed" href="./images/favicon/montblanc_fav114.png">
+    <link rel="stylesheet" href="./css/font.css">
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/notosans_kr_CDN.css">
+    <!-- 페이지 css -->
+    <!-- JS 플러그인 파일 -->
+    <script src="./js/jquery-1.12.4.min.js"></script>
+    <script src="./js/jquery-3.3.1.min.js"></script>
+    <script src="./js/prefixfree.min.js"></script>
 </head>
+<style>
+    body{
+        background-color: #231f20;
+       
+        
+    }
+    #wrap {
+        width: 100%;
+        margin: 0 auto;
+        text-align: center;
+        font-family: 'IBM Plex Sans KR', sans-serif;
+    }
+    .w960 {
+        width:1280px;
+        margin: 0 auto;
+    }
+    /* 해더 */
+
+
+    header h1 {
+        float: left;
+        font-size: 2.34375%;
+        color: #f4f4f4;
+        font-weight: 700;
+    }
+    header nav {
+        float: right;
+        color:#f4f4f4;
+    }
+    header ul li {
+        float: left;
+        padding: 5px;
+    }
+    /* 메인 */
+    .main_text{
+        margin-bottom: 6.25%;
+    }
+    .main_text h1{
+        font-weight: 700;
+        font-size: 36px;
+        text-align: center;
+        color: #f4f4f4;
+    }
+    .main_text h1 span {
+        color: rgb(146, 73, 250);
+    }
+    .abut_me {
+        margin-bottom: 50px;
+    }
+    .abut_me h2 {
+        font-weight: 500;
+        color: #f4f4f4;
+        font-size: 25px;
+    }
+    .abut_me {
+        color: rgb(146, 73, 250);
+    }
+    .portfolio h3 {
+        font-weight: 500;
+        color: #f4f4f4;
+        font-size: 25px;
+        margin-bottom: 5px;
+    }
+    .box {
+        width: 62.5%;
+        height: 300px;
+        text-align: center;
+        background-color:rgb(146, 73, 250);
+        text-align: center;
+        margin: 0 auto;
+        border-radius: 20px;
+    }
+    .box a {
+        color: #f4f4f4;
+       font-size: 20px;
+    }
+    .box a:hover {
+        color: yellow;
+    }
+
+
+</style>
 <body>
     <div id="wrap">
-    <h1>welcome!!!</h1>
-    <a href=" https://dhehdxhd1998.github.io/dong/last_float/float_layout.html"  target="_blank">중급플롯레이아웃<br></a>
-    <a href=" https://dhehdxhd1998.github.io/dong/50_프로젝트기본레이아웃실습.html"  target="_blank">50_프로젝트기본레이아웃실습</a><br>
-    <a href=" https://dhehdxhd1998.github.io/dong/myname/teamproject_2.html" target="_blank">명함만들기</a><br>
-    <a href=" https://dhehdxhd1998.github.io/dong/myname/teamproject_3.html"  target="_blank">면접질문</a><br>
-    <a href=" https://dhehdxhd1998.github.io/dong/200_jQplugin/01_P1scroll.html"  target="_blank">01_PI스크롤</a><br>
-    <a href=" https://dhehdxhd1998.github.io/dong/myname/media.html"  target="_blank">모바일 퍼스트 미디쿼리 실습</a><br>
-    <a href=" https://dhehdxhd1998.github.io/dong/8000_Portfolio/010_Montblanc_Float/index.html"  target="_blank">몽블랑 사이트 </a><br>
-    <a href=" https://dhehdxhd1998.github.io/dong/teamproject_0915/temproject_6.html"  target="_blank"> 0916 실습</a><br>
-    <a href=" https://dhehdxhd1998.github.io/dong/8000_Portfolio/010_Champin_Float/Champion_site.html"> 챔피온 사이트</a><br>         
-       
-    </div>  
+        <!-- 헤더 -->
+             <header class="cf w960" >
+                <!-- <h1>GD</h1>
+                <nav>
+                    <ul>
+                        <li><a href="#">About me</a></li>
+                        <li><a href="#">Portfolio</a></li>
+                    </ul>
+                </nav> -->
+            </header> 
+            <!-- /헤더 -->
+            <!-- 메인 -->
+            <main role="main" class="w960">
+                <div class="main_text">
+                    <h1>
+                        <span>Welcome!.</span> This is <span>Hwang Gyu dong </span><br>
+                        <span>Portfolio</span>&nbsp;page</h1>
+                </div>
+                <section class="abut_me">
+                    <h2>About me</h2>
+                    <br>
+                    <p>개발 공부를 하고 있는</p>
+                    <p>저는 황규동 입니다.</p>
+                </section>
+                <br>
+                <div class="portfolio">
+                    <h3>Portfolio</h3>
+                    <section class="box">
+                        <ul>
+                            <br>
+                            <a href=" https://dhehdxhd1998.github.io/dong/last_float/float_layout.html"  target="_blank">중급플롯레이아웃<br></a>
+                            <a href=" https://dhehdxhd1998.github.io/dong/50_프로젝트기본레이아웃실습.html"  target="_blank">50_프로젝트기본레이아웃실습</a><br>
+                            <a href=" https://dhehdxhd1998.github.io/dong/myname/teamproject_2.html" target="_blank">명함만들기</a><br>
+                            <a href=" https://dhehdxhd1998.github.io/dong/myname/teamproject_3.html"  target="_blank">면접질문</a><br>
+                            <a href=" https://dhehdxhd1998.github.io/dong/200_jQplugin/01_P1scroll.html"  target="_blank">01_PI스크롤</a><br>
+                            <a href=" https://dhehdxhd1998.github.io/dong/myname/media.html"  target="_blank">모바일 퍼스트 미디쿼리 실습</a><br>
+                            <a href=" https://dhehdxhd1998.github.io/dong/8000_Portfolio/010_Montblanc_Float/index.html"  target="_blank">몽블랑 사이트 </a><br>
+                            <a href=" https://dhehdxhd1998.github.io/dong/teamproject_0915/temproject_6.html"  target="_blank"> 0916 실습</a><br>
+                            <a href="https://dhehdxhd1998.github.io/dong/8000_Portfolio/010_Champin_Float/Champion_site.html"  target="_blank"> 챔피온 사이트</a><br>
+                        </ul>
+                    </section>
+                </div>
+            </main>
+
+    </div>
 </body>
 </html>
