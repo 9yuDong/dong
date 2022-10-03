@@ -1,0 +1,83 @@
+@charset "utf-8";
+/* 모듈작업 (부속만들기 작업) */
+/* 영문 20개 이상, 한글 15개 이상 */
+/* 영문폰트 @import */
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Karla&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lora&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Archivo&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Mouse+Memoirs&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=BhuTuka+Expanded+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alumni+Sans+Inline+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Square+Peg&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Maven+Pro&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Teko&display=swap');
+/* 한글폰트 @import */
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif+KR&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Myeongjo&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic+Coding&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Pen+Script&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Brush+Script&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Gothic+A1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Black+Han+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Do+Hyeon&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Do+Hyeon&family=Dokdo&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Single+Day&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Black+And+White+Picture&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kirang+Haerang&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Gamja+Flower&display=swap');
+/* 영문폰트 */
+.roboto {font-family: 'Roboto', sans-serif;}
+.oswald {font-family: 'Oswald', sans-serif;}
+.opensans {font-family: 'Open Sans', sans-serif;}
+.karla {font-family: 'Karla', sans-serif;}
+.lora {font-family: 'Lora', serif;}
+.archivo {font-family: 'Archivo', sans-serif;}
+.mouse {font-family: 'Mouse Memoirs', sans-serif;}
+.bhutuka {font-family: 'BhuTuka Expanded One', cursive;}
+.sanspro {font-family: 'Source Sans Pro', sans-serif;}
+.alumni {font-family: 'Alumni Sans Inline One', cursive;}
+.playfair {font-family: 'Playfair Display', serif;}
+.square {font-family: 'Square Peg', cursive;}
+.josefin {font-family: 'Josefin Sans', sans-serif;}
+.bebas {font-family: 'Bebas Neue', cursive;}
+.dancing {font-family: 'Dancing Script', cursive;}
+.codepro {font-family: 'Source Code Pro', monospace;}
+.lobster {font-family: 'Lobster', cursive;}
+.pacifico {font-family: 'Pacifico', cursive;}
+.maven {font-family: 'Maven Pro', sans-serif;}
+.teko {font-family: 'Teko', sans-serif;}
+/* 한글폰트 */
+.notosansko {font-family: 'Noto Sans KR', sans-serif;}
+.notoserifko {font-family: 'Noto Serif KR', serif;}
+.nanumgothic {font-family: 'Nanum Gothic', sans-serif;}
+.nanummyeongjo {font-family: 'Nanum Myeongjo', serif;}
+.nanumgothicco {font-family: 'Nanum Gothic Coding', monospace;}
+.nanumpen {font-family: 'Nanum Pen Script', cursive;}
+.nanumbrush {font-family: 'Nanum Brush Script', cursive;}
+.gothica1 {font-family: 'Gothic A1', sans-serif;}
+.blackhansans {font-family: 'Black Han Sans', sans-serif;}
+.dohyeonsans {font-family: 'Do Hyeon', sans-serif;}
+.dokdo {font-family: 'Dokdo', cursive;}
+.singleday {font-family: 'Single Day', cursive;}
+.blackwhite {font-family: 'Black And White Picture', sans-serif;}
+.kirangcur {font-family: 'Kirang Haerang', cursive;}
+.gamjacur {font-family: 'Gamja Flower', cursive;}
+
+
+/* 추가폰트 */
+@import url(//spoqa.github.io/spoqa-han-sans/css/SpoqaHanSansNeo.css);
+
+.hansansneo{ font-family: 'Spoqa Han Sans Neo', 'sans-serif'; }
