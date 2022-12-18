@@ -1,0 +1,77 @@
+@charset "utf-8";
+/* html{
+    font-size: 62.5%;
+} */
+body {
+  font-family: "Roboto", sans-serif;
+}
+#wrap {
+  /* 1132px */
+}
+/* 지정 너비 적용 클래스 */
+.container {
+  max-width: 1132px;
+  margin: 0 auto;
+}
+/* 각 타이틀 스타일 */
+.sec_title {
+  font-size: 42px;
+  font-size: 2.625rem;
+  color: #3f51b5;
+}
+/* 구분선 스타일 */
+.divider {
+  max-width: 1132px;
+  margin: 0 auto;
+  height: 2px;
+  background: #eee;
+  margin-top: 80px;
+}
+/* 짧은구분선 스타일 */
+.m_divider {
+  width: 20px;
+  margin: 0 auto;
+  height: 2px;
+  background-color: #3f51b5;
+  margin-top: 80px;
+}
+
+/* 모바일 퍼스트 =모바일용 공통스타일*/
+.header {
+  padding: 18px 5%;
+  position: relative;
+}
+.header .logo {
+}
+.header .logo a {
+  font-size: 26px;
+  font-size: 1.625rem;
+  color: #3f51b5;
+  letter-spacing: -2px;
+  font-weight: 500;
+}
+/* gnb */
+.header .gnb {
+  width: 100%;
+  background: #3f51b5;
+  /* 포지션 */
+  position: absolute;
+  left: 0;
+  top: 100%;
+  z-index: 9999999;
+}
+.header .gnb li {
+  border-bottom: 1px solid #303f9f;
+}
+.header .gnb li a {
+  display: block;
+  font-size: 14px;
+  font-size: 0.875rem;
+  padding: 14px 0 14px 5%;
+}
+
+@media screen and (min-width: 768px) {
+}
+
+@media screen and (min-width: 1132px) {
+}
