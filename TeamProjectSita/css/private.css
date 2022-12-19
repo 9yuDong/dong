@@ -1,0 +1,23 @@
+@charset "utf-8";
+#wrap {
+    font-size: 1.5rem;
+    line-height: 1.8;
+}
+main {
+    padding-bottom: 260px;
+}
+.subject {
+    padding-top: 200px;
+    font-size: 3.2rem;
+    padding-bottom: 55px;
+    font-weight: 500;
+}
+.first_li {
+    padding-bottom: 24px;
+}
+.alert {
+    padding-top: 20px;
+}
+.square {
+    padding-top: 20px;
+}

@@ -1,0 +1,167 @@
+@charset "utf-8";
+body {
+    font-family: 'Spoqa Han Sans Neo', 'sans-serif';
+}
+.w1200 {
+    min-width: 1200px;
+    width: 1200px;
+    margin: 0 auto;
+}
+#wrap {
+    width: 1920px;
+    width: 100%;
+    margin: 0 auto;
+}
+header {
+    margin-top: 72px;
+}
+
+
+
+/* 상단 고정 소개페이지 */
+.sec_01 {
+    height: 1024px;
+    background: url(../images/intro_img/intro_img01.png) no-repeat;
+    background-size: cover;
+    background-position: center center;
+    color: #fff;   
+    text-align: center;
+    font-weight: 700;
+    padding-top: 408px;
+}
+.sec_01 h2 {
+    font-size: 2.36rem;
+    line-height: 1.4;
+}
+.sec_01 p {
+    font-size: 1.38rem;
+    line-height: 1.4;
+    margin-top: 26px;
+}
+.sec_01 button {
+    font-size: 1.1rem;
+    font-weight: 700;
+    color: #fff;
+    margin-top: 40px;
+    cursor: pointer;
+}
+.snb {
+    max-width: 1200px;
+    margin-top: 12px;
+    border-top: 2px solid #f1f1f1;
+}
+.snb ul {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    padding: 0 200px;
+}
+.snb ul li {
+    color: #8a8a8a;
+    font-size: 1.3rem;
+    line-height: 3;
+    cursor: pointer;
+}
+.snb ul li:hover {
+    color: #202237;
+}
+
+/* Section Menu_1 플라스틱 분해 */
+
+.sec_02 h3 a {
+    color: #666666;
+    font-size: 18px;
+    font-size: 1.125rem;
+    font-weight: 500;
+}
+.sec_02 h3 i {
+    font-size: 20px;
+    font-size: 1.25rem;
+    margin-left: 15px;
+}
+
+/* Section Menu_01~04 */
+.sec_all img {
+    width: 100%;
+}
+.sec_all div {
+    display: flex;
+    flex-flow: row wrap;      
+    justify-content: space-between;
+    line-height: 1.5;
+    padding-top: 60px;
+    padding-bottom: 120px;
+}
+.sec_all div h3 {
+    font-size: 21px;
+    font-size: 1.313rem;
+    font-weight: 700;
+}
+.sec_all div p {
+    color: #666666;
+    font-size: 18px;
+    font-size: 1.125rem;
+}
+
+/* Section Menu_5 시타 프로젝트 */
+.sec_06 {
+    height: 1024px;
+    background: url(../images/intro_img/intro_img06.PNG) no-repeat;
+    background-size: cover;
+    background-position: center center;
+    text-align: center;
+    color: #fff;
+}
+.sec_pj h3 {
+    font-size: 36px;
+    font-size: 2.25rem;
+    font-weight: 300;
+    padding-top: 300px;
+}
+.sec_pj p {
+    font-size: 21px;
+    font-size: 1.313rem;
+    font-weight: 300;
+    line-height: 1.5;
+    padding-top: 120px;
+}
+.sec_pj button {
+    font-size: 18px;
+    font-size: 1.125rem;
+    font-weight: 700;
+    color: #fff;
+    padding-top: 60px;
+    cursor: pointer;
+}
+.sec_pj button i {
+    margin-right: 15px;
+}
+.sec_num {
+    padding-top: 160px;
+}
+.sec_num ul {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    align-items: flex-end;
+}
+.sec_num span {
+    font-size: 36px;
+    font-size: 2.25rem;
+    line-height: 1.5;
+    font-weight: 800;
+}
+.sec_num li {
+    font-size: 18px;
+    font-size: 1.125rem;
+}
+
+/* 스크립트 */
+.snb #snb li.active {
+    border-top: 5px solid #202237;
+    font-weight: bold;
+    color: #202237;
+}
+.sec_03, .sec_04, .sec_05, .sec_06 {
+    display: none;
+}

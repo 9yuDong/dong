@@ -1,0 +1,339 @@
+@charset "utf-8";
+
+html {
+    font-size: 62.5%;
+    font-family: 'Spoqa Han Sans Neo', 'sans-serif';
+}
+.w1200 {
+    width: 1200px;
+    margin: 0 auto;
+}
+#wrap {
+    width: 1920px;
+    width: 100%;
+}
+header .menu nav ul li {
+    line-height: 100px;
+    margin-right: 40px;
+    font-size: 1.6rem;
+}
+header {
+    margin-top: 72px;
+}
+header .menu_hover .dl_wrap dl {
+    margin-right: 40px;
+}
+header .menu_hover .dl_wrap dl dt {
+    font-size: 1.6rem;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+header .menu_hover .dl_wrap dl dd {
+    font-size: 1.4rem;
+    margin-top: 20px;
+}
+
+/* Contents */
+/* 카카오_회원가입 */
+.kakao {
+    padding-top: 100px;
+    padding-left: 0;
+    margin-top: 110px;
+}
+.kakao h2{
+    font-size: 2rem;
+    font-weight: normal;
+    padding-bottom: 20px;
+}
+.kakao button {
+    width: 45%;
+    height: 60px;
+    line-height: 60px;
+    margin-bottom: 3px;
+    background: rgb(244,228,86);
+}
+.kakao button img {
+    width: 4.299065420560748%;
+    height: 28px;
+    /* 플롯 */
+    float: left;
+    transform: translate(27px,18px);
+}
+.kakao button span {
+    font-size: 1.8rem;
+    padding-right: 10px;
+}
+
+/* 회원가입 form */
+.sign_up {
+    padding-top: 84px;
+    padding-left: 0;
+    padding-bottom: 270px;
+}
+
+.title {
+    font-size: 3rem;
+    font-weight: 500;
+    margin-bottom: 54px;
+}
+.sign_up input {
+    height: 50px;
+    border-bottom: 1px solid #000;
+    margin-bottom: 60px;
+    font-weight: 600;
+}
+
+label {
+    font-size: 1.5rem;
+    margin-top: 50px;
+    font-weight: bold;
+}
+input[type="checkbox"] {
+    font-size: 1rem;
+    text-align: left;
+    display: inline-block;
+    width: 20px;
+    margin-right: 20px;
+    margin-bottom: -20px;
+    /* 포지션 */
+    position: relative;
+    bottom: 17px;
+}
+/* 시작 : 이메일 영역 */
+.e_mail {
+    display: flex;
+    flex-flow: row nowrap;
+}
+.e_mail span {
+    font-size: 1.5rem;
+    line-height: 35px;
+    padding: 10px;
+}
+.e_mail #e_mail {
+    width: 29.53271028037383%;
+    padding-right: 10px;
+}
+.e_mail #domain_txt {
+    width: 29.53271028037383%;
+    margin-right: 40px;
+}
+/* 이메일 선택창 */
+#domain_list {
+    font-size: 1.4rem;
+    font-weight: bold;
+    width: 31.77570093457944%;
+    height: 50px;
+    border: none;border-bottom: 1px solid #000;
+}
+#domain_list:checked {
+    outline: none;
+}
+#domain_list option{
+    font-weight: normal;
+}
+
+/* 끝 : 이메일 영역*/
+
+/* 비밀번호 */
+
+.alert_num {
+    font-size: 1.4rem;
+    color: red;
+    /* 포지션 */
+    position: relative;
+    left: 0;
+    top: -50px;
+}
+.alert_wrong {
+    font-size: 1.4rem;
+    color: red;
+    /* 포지션 */
+    position: relative;
+    left: 0;
+    top: -50px;
+}
+
+
+
+
+/* 동의서 */
+.check_flex{
+    /* 플렉스 */
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: space-between;
+    /* 포지션 */
+    position: relative;
+    bottom: 40px;
+}
+.check_flex input {
+    accent-color: black;
+    cursor: auto;
+    height: 20px;
+    /* 클릭 정확도 올리기 */
+    margin: 12px 10px 0 0;
+}
+.check_flex label:nth-child(2) {
+    font-weight: 500;
+}
+.check_flex label {
+    font-weight: 400;
+    font-size: 1.3rem;
+    margin-top: 0;
+    padding: 0;
+}
+.check_flex span {
+    text-decoration: underline;
+}
+/* 체크박스 */
+input[type="checkbox"] {
+    width: 15px;
+    height: 15px;
+    border: 2px solid #000;
+    appearance: none;
+    cursor: pointer;
+    transition: all 0.2s;
+    /* 포지션 */
+    position: relative;
+    bottom: 15px;
+}
+input[type="checkbox"]:checked {
+    background: #000;
+}
+.form_left {
+    width: 44.66666666666667%;
+    /* 플롯 */
+    float: left;
+    margin-right: 9.166666666666667%;
+}
+.form_right {
+    width: 44.58333333333333%;
+    /* 플롯 */
+    float: left;
+    margin-right: 0;
+}
+
+
+/* 하단 폼 플롯 */
+.check_flex {
+    width: 54.16666666666667%;
+    /* 플롯 */
+    float: left;
+}
+
+
+.join {
+    width: 45.83333333333333%;
+    text-align: center;
+    padding-top: 51px;
+    padding-left: 0px;
+    /* 플롯 */
+    float: left;
+}
+.join p {
+    width: 97.63636363636364%;
+    height: 60px;
+    line-height: 60px;
+    font-size: 1.7rem;
+    font-weight: 600;
+    background: #000;
+    color: #898989;
+    cursor: pointer;
+}
+/* Aside */
+.talk {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: gray;
+     /* 포지션 */
+     position: fixed;
+     right: 30px;
+     bottom: 30px;
+}
+.talk p {
+    color: #fff;
+    font-size: 3rem;
+    /* 포지션 */
+    position: fixed;
+    right: 39px;
+    bottom: 41px;
+}
+
+/* Footer */
+/* footer {
+    padding-left: 95px;
+    padding-top: 86px;
+    background: rgb(241,241,241);
+    height: 600px;
+}
+.footer_logo {
+    width: 280px;
+    margin-right: 440px;
+    float: left;
+}
+.footer_logo img {
+    width: 123px;
+}
+.footer_sc {
+    width: 260px;
+    float: left;
+}
+.footer_service {
+    width: 260px;
+    float: left;
+}
+.footer_company {
+    width: 260px;
+    float: left;
+}
+.footer .menu_bottom {
+    width: 150px;
+    border-bottom: 1px solid #000;
+    padding-bottom: 8px;
+    font-size: 1.3rem;
+    margin-left: 80px;
+    cursor: pointer;
+    float: left;
+}
+
+.menu_bottom  img{
+    width: 6px;
+    transform: rotate(90deg);
+    margin-left: 95px;
+}
+.footer dt {
+    font-size: 1.4rem;
+    width: 80%;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #000;
+}
+.footer dd {
+    font-size: 1.3rem;
+    padding-top: 15px;
+} 
+.bottom_info {
+    margin-top: 350px;
+}
+.copyright {
+    padding-left: 0;
+    font-size: 1.3rem;
+    width: 300px;
+    float: left;
+}
+.info {
+    width:950px;
+    font-size: 1.1rem;
+    float: right;
+} */
+
+
+
+
+
+
+
+
+
+
+

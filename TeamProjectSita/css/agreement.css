@@ -1,0 +1,40 @@
+@charset "utf-8";
+#wrap {
+    font-size: 1.5rem;
+    line-height: 1.8;
+}
+main {
+    padding-top: 100px;
+    padding-bottom: 260px;
+}
+header .menu_hover .dl_wrap dl {
+    margin-right: 40px;
+}
+header .menu_hover .dl_wrap dl dt {
+    font-size: 1.6rem;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+header .menu_hover .dl_wrap dl dd {
+    font-size: 1.4rem;
+    margin-top: 20px;
+}
+.subject {
+    padding-top: 100px;
+    font-size: 3.2rem;
+    padding-bottom: 55px;
+    font-weight: 500;
+}
+.padding_t {
+    padding-top: 24px;
+    font-weight: 500;
+}
+.padding_ts {
+    padding-top: 20px;
+}
+.alert {
+    padding-top: 20px;
+}
+.square {
+    padding-top: 20px;
+}

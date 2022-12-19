@@ -1,0 +1,547 @@
+@charset "utf-8";
+#wrap {
+    width: 1920px;
+    margin: 0 auto;
+    font-family: 'Spoqa Han Sans Neo', 'sans-serif';
+    color: #2f2f2f;
+}
+.w1200 {
+    width: 1200px;
+    margin: 0 auto;
+}
+#wrap {
+    width: 100%;
+    margin: 0 auto;
+    /* main.css 배경색 초기화 */
+    background-color: transparent;
+    /* 헤더 위치기준값 */
+    position: relative;
+}
+
+/* =============== 혁신_여정 ============== */
+/* start */
+.start {
+    padding: 300px 0 50px 0;
+    background-color: #f5f5f5;
+    letter-spacing: -0.4px;
+}
+.start_txt {
+    height: 240px;
+    display: flex;
+    line-height: 2.125rem;
+    letter-spacing: -2px;
+}
+.start_txt h2 {
+    width: 400px;
+    width: 33.3333%;
+    font-size: 1.25rem;
+    font-weight: 900;
+}   
+.start_txt p {
+    width: 800px;
+    width: 66.6666%;
+    font-size: 20px;
+    font-weight: 600;
+}
+.start_txt p>i {
+    font-size: 17px;
+}
+.start_content i {
+    color: #f5f5f5;
+    font-size: 64px;
+    position: absolute;
+    right: 50px;
+    bottom: 50px;
+    cursor: pointer;
+}
+.start_content img {
+    width: 100%;
+    height: 600px;
+}
+.start_content iframe {
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: 1;
+    display: none;
+}
+.start_txt2 {
+    padding: 80px 0 100px 400px;
+}
+.start_txt2 p {
+    font-size: 14px;
+    line-height: 25px;
+    letter-spacing: -1.6px;
+    font-weight: 600;
+}
+/* together */
+.together {
+    padding: 200px 0px 50px 0px;
+}
+.together h2 {
+    height: 100px;
+    font-size: 20px;
+    font-weight: 900;
+    letter-spacing: -2px;
+}
+.together_img img {
+    width: 100%;
+    height: 600px;
+}
+.together_txt {
+    padding: 80px 0 100px 400px;
+}
+.together_txt p {
+    font-size: 14px;
+    line-height: 25px;
+    letter-spacing: -1.6px;
+    font-weight: 600;
+}
+
+/* reality */
+.reality {
+    background-color: #f5f5f5;
+    padding: 200px 0 50px 0;
+}
+.reality h2 {
+    height: 100px;
+    font-size: 20px;
+    font-weight: 900;
+    letter-spacing: -2px;
+}
+.reality_img img{
+    width: 100%;
+    height: 600px;
+}
+.reality_txt {
+    padding: 80px 0 100px 400px;
+}
+.reality_txt p {
+    font-size: 14px;
+    line-height: 25px;
+    letter-spacing: -1.6px;
+    font-weight: 600;
+}
+
+/* project */
+.project {
+    padding: 200px 0 150px 0;
+}
+.project>h2 {
+    height: 100px;
+    font-size: 20px;
+    font-weight: 900;
+    letter-spacing: -2px;
+}
+.project ul {
+    display: flex;
+}
+.project ul li {
+    width: 370px;
+    height: 765px;
+    margin-right: 45px;
+    border: 1px solid #e6e6e6;  
+    /* 위치 기준값 */
+    position: relative;
+}
+.project .project_img {
+    /* 위치 기준값 */
+    position: relative;
+}
+.project .project_img img {
+    width: 370px;
+    height: 370px;
+}
+.project .project_img {
+    overflow: hidden;
+}
+.project .project_img img:hover {
+    transform:scale(1.1);
+    transition: all 0.3s;
+    filter: brightness(70%);
+    cursor: pointer;
+}
+.project .project_img p {
+    font-size: 14px;
+    color: #ffffff;
+    font-weight: bold;
+    cursor: pointer;
+    position: absolute;
+    left: 35px;
+    bottom: 35px;
+    z-index: 1;
+}
+.project .project_txt {
+    padding: 0 35px;
+}
+.project .project_txt .top {
+    text-align: center;
+    padding-bottom: 35px;
+    margin-bottom: 35px;
+    border-bottom: 1px solid #e6e6e6;
+}
+.project .project_txt .top h2 {
+    padding: 35px 0 15px 0;
+    color: #333333;
+    font-size: 24px;
+    font-weight: bold;
+}
+.project .project_txt .top p {
+    color: #666666;
+    letter-spacing: -0.8px;
+    line-height: 20px;
+}
+
+.project_txt .bottom tr th {
+    color: #333;
+    font-size: 15px;
+    letter-spacing: -0.4px;
+    font-weight: bold;
+    padding-bottom: 10px;
+}
+.project_txt .bottom tr td {
+    color: #666;
+    font-size: 15px;
+    letter-spacing: -0.4px;
+    padding-bottom: 10px;
+}
+.project_txt .button {
+    text-align: center;
+    position: absolute;
+    left: 50%;
+    bottom: 40px;
+    transform: translateX(-50%);
+}
+.project_txt .button a {
+    border: 1px solid #4cab84;
+    color: #008850;
+    font-weight: bold;
+    padding: 12px 26px;
+    font-size: 15px;
+}
+.project .project_Explanation {
+    padding: 80px 0 50px 400px;
+    font-size: 14px;
+    line-height: 25px;
+    letter-spacing: -1.6px;
+    font-weight: 600;
+}
+
+/* innovation */
+.innovation {
+    padding: 200px 0 80px 0;
+    background-color: #f5f5f5;
+}
+.innovation h2 {
+    height: 100px;
+    font-size: 20px;
+    font-weight: 900;
+    letter-spacing: -2px;
+}
+.innovation_img {
+    display: flex;
+}
+.innovation_img img {
+    width: 50%;
+    height: 600px;
+}
+.innovation_txt {
+    padding: 80px 0 150px 400px;
+}
+.innovation_txt p {
+    font-size: 14px;
+    line-height: 25px;
+    letter-spacing: -1.6px;
+    font-weight: 600;
+}
+.innovation_last_img img {
+    width: 100%;
+    height: 600px;
+}
+
+.disposable .dis_content:nth-child(1) {
+    background-image: url(../images/disposable_1.jpg);
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 600px;
+    text-align: center;
+    color: #fff;
+}
+.disposable .dis_content:nth-child(1) p {
+    padding-top: 300px;
+    padding-bottom: 40px;
+    font-size: 18px;
+    line-height: 28px;
+    letter-spacing: -0.8px;
+}
+.disposable .dis_content:nth-child(1) h2 {
+    font-size: 30px;
+    font-weight: bold;
+    letter-spacing: -0.8px;
+}
+main .pw_change {
+    font-weight: 400;
+}
+main .project .pw_change {
+    font-weight: 400;
+}
+/* =============== 플라스틱_분해 ============== */
+/* dark_skin */
+#dark_skin {
+    background-image: url(../images/plastic/dark_skin.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+}
+
+/* circle_show */
+/* title */
+.circle_show .title {
+    padding: 420px 0;
+    font-size: 36px;
+    color: #fff;
+    line-height: 46px;
+    font-weight: 900;
+    letter-spacing: -0.8px;
+    text-align: center;
+}
+
+/* circle_list */
+.circle_list {
+    width: 1440px;
+    height: 1440px;
+    margin: 0 auto;
+    margin-bottom: 200px;
+    /* 위치 기준값 */
+    position: relative;
+}
+.circle_list .circle_center h2 {
+    font-size: 42px;
+    font-weight: 900;
+    color: #fff;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    z-index: 2;
+}
+.circle_list .circle_center h2+img {
+    width: 535px;
+    height: 535px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    z-index: 1;
+}
+.circle_list .circle_center h2+img+img {
+    width: 1140px;
+    height: 1140px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    z-index: 1;
+}
+.circle_list ul li {
+    display: inline-block;
+    opacity: 0;
+}
+.circle_list ul li img {
+    width: 300px;
+    height: 300px;
+}
+.circle_list ul li p {
+    padding-top: 20px;
+    text-align: center;
+    color: #fff;
+    font-size: 15px;
+    line-height: 21px;
+    letter-spacing: -0.4px;
+    font-weight: 900;
+}
+.circle_list ul li:nth-child(1) {
+    position: absolute;
+    left: 50%;
+    top: 0;
+    transform: translateX(-50%);
+    z-index: 2;
+    transition-duration: 0.7s;
+    transition-delay: 0s;
+}
+.circle_list ul li:nth-child(2) {
+    position: absolute;
+    right: 14%;
+    top: 14%;
+    transform: translate(14%,-14%);
+    z-index: 2;
+    transition-duration: 0.7s;
+    transition-delay: 0.5s;
+}
+.circle_list ul li:nth-child(3) {
+    position: absolute;
+    right: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    z-index: 2;
+    transition-duration: 0.7s;
+    transition-delay: 1s;
+}
+.circle_list ul li:nth-child(4) {
+    position: absolute;
+    right: 14%;
+    bottom: 14%;
+    transform: translate(14%,14%);
+    z-index: 2;
+    transition-duration: 0.7s;
+    transition-delay: 1.5s;
+}
+.circle_list ul li:nth-child(5) {
+    position: absolute;
+    left: 50%;
+    bottom: 0;
+    transform: translate(-50%);
+    z-index: 2;
+    transition-duration: 0.7s;
+    transition-delay: 2s;
+}
+.circle_list ul li:nth-child(6) {
+    position: absolute;
+    left: 14%;
+    bottom: 14%;
+    transform: translate(-14%,14%);
+    z-index: 2;
+    transition-duration: 0.7s;
+    transition-delay: 2.5s;
+}
+.circle_list ul li:nth-child(7) {
+    position: absolute;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    z-index: 2;
+    transition-duration: 0.7s;
+    transition-delay: 3s;
+}
+.circle_list ul li:nth-child(8) {
+    position: absolute;
+    left: 14%;
+    top: 14%;
+    transform: translate(-14%,-14%);
+    z-index: 2;
+    transition-duration: 0.7s;
+    transition-delay: 3.5s;
+}
+
+
+/* 플라스틱 분해 상세 */
+.artView {
+    background-color: #000000;
+    margin-bottom: 150px;
+    /* 위치기준값 */
+    position: relative;
+    overflow: hidden;
+    width: 1440px;
+    margin: 0 auto;
+}
+.artView_title {
+    padding: 0 120px;
+    margin-bottom: 80px;
+    font-size: 36px;
+    font-weight: 900;
+    color: #fff;
+}
+.artGroup {
+    width: 400%;
+    transition: all 0.5s;
+    display: flex;
+    flex-flow: row nowrap;
+}
+.artGroup li {
+    width: 1440px;
+}
+.artGroup li img {
+    width: 1200px;
+    margin: 0 120px;
+}
+.artGroup li .plastic_txt {
+    padding: 50px 120px;
+    color: #fff;
+}
+.artGroup li .plastic_txt h2 {
+    font-size: 20px;
+    font-weight: 900;
+    letter-spacing: -2px;
+    margin-bottom: 10px;
+}
+.artGroup li .plastic_txt p {
+    font-size: 14px;
+    letter-spacing: -1px;
+    font-weight: 600;
+    line-height: 20px;
+}
+.plastic_button i {
+    color: white;
+    font-size: 100px;
+    cursor: pointer;
+}
+.plastic_button .left {
+    position: absolute;
+    left: 0;
+    top: 35%;
+    z-index: 1;
+}
+.plastic_button .left i:active {
+    color: gray;
+}
+.plastic_button .right {
+    position: absolute;
+    right: 0;
+    top: 35%;
+    z-index: 1;
+}
+.plastic_button .right i:active {
+    color: gray;
+}
+
+/* disposable */
+.disposable_title {
+    font-size: 36px;
+    color: #fff;
+    line-height: 46px;
+    font-weight: 900;
+    letter-spacing: -0.8px;
+    text-align: center;
+    margin: 400px 0;
+}
+.disposable_content ul {
+    display: flex;
+    flex-flow: column nowrap;
+}
+.disposable_content ul li {
+    width: 100%;
+    display: flex;
+    margin-bottom: 50px;
+}
+.disposable_content ul li img {
+    width: 800px;
+    height: 400px;
+}
+.disposable_content ul li p{
+    width: 400px;
+    height: 400px;
+    padding: 50px;
+    color: #fff;
+    font-size: 15px;
+    line-height: 24px;
+    letter-spacing: -0.4px;
+    font-weight: 900;
+    background-color: rgba(255,255,255,0.1);
+}

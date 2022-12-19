@@ -1,0 +1,132 @@
+@charset "utf-8";
+html {
+    font-size: 62.5%;
+    width: 633px;
+    height: 795px;
+    margin: 0 auto;
+}
+#wrap {
+    width: 95%;
+    margin: 0 auto;
+}
+legend {
+    font-size: 3rem;
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 70px;
+    font-weight: 500;
+}
+#kakao_id {
+    width: 100%;
+    height: 30px;
+    border-bottom: 1px solid silver;
+}
+#kakao_pw {
+    width: 100%;
+    height: 30px;
+    border-bottom: 1px solid silver;
+    margin-top: 20px;
+}
+.flex {
+    display: flex;
+    flex-flow: row nowrap;
+    margin-top: 35px;
+}
+.flex label {
+    font-size: 1.4rem;
+    padding-bottom: 5px;
+}
+input[type="checkbox"] {
+    width: 20px;
+    height: 20px;
+    border: 1px solid gray;
+    margin-top: 11px;
+    margin-right: 5px;
+    border-radius: 25%;
+    appearance: none;
+    cursor: pointer;
+     /* 포지션 */
+     position: relative;
+     bottom: 15px;
+ }
+ input[type="checkbox"]:checked {
+     background: #000;
+ } 
+
+.log_in_btn {
+    width: 100%;
+    height: 40px;
+    line-height: 40px;
+    margin-bottom: 20px;
+    background: rgb(254, 229, 0);
+}
+.or {
+    text-align: center;
+}
+.or:before {
+    display: inline-block;
+    width: 47%;
+    height: 1px;
+    margin: 8px 0;
+    background-color: rgba(0,0,0,0.06);
+    content: "";
+    vertical-align:bottom;
+}
+.or:after {
+    display: inline-block;
+    width: 47%;
+    height: 1px;
+    margin: 8px 0;
+    background-color: rgba(0,0,0,0.06);
+    content: "";
+    vertical-align:bottom;
+}
+.qr_btn {
+    width: 100%;
+    height: 40px;
+    line-height: 40px;
+    margin-bottom: 20px;
+    background: rgb(240, 240, 240);
+    margin-top: 20px;
+}
+
+.join {
+    /* 플롯 */
+    float: left;
+}
+.join_right {
+    /* 플롯 */
+    float: right;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

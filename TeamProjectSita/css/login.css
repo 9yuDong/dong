@@ -1,0 +1,78 @@
+@charset "utf-8";
+body {
+    font-family: 'Spoqa Han Sans Neo', 'sans-serif';
+}
+.w1200 {
+    max-width: 1200px;
+    width: 87.5%;
+    margin: 0 auto;
+}
+
+#wrap {
+    /* width: 1920px; */
+    width: 100%;
+    margin: 0 auto;
+}
+
+.lgn {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    align-items: flex-end;
+    margin-top: 100px;
+}
+
+/* LoginPage left */
+.lgn_left {
+    width: 43.75%;
+}
+
+.lgn_left h2 {
+    font-size: 30px;
+    font-size: 1.875rem;
+    font-weight: 500;
+    margin-bottom: 55px;
+}
+.form input {
+    margin-top: 25px;
+    line-height: 3;
+    border-bottom: 1px solid #000;
+    margin-bottom: 35px;
+}
+
+.lgn_btn button {
+    width: 100%;
+    height: 60px;
+    line-height: 60px;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+}
+.lgn_btn button:first-child {
+    font-weight: 600;
+    background: #000;
+    color: #fff;
+    margin-top: 45px;
+}
+.lgn_btn button:last-child {
+    font-size: 1.125rem;
+    font-weight: 600;
+    line-height: 60px;
+    background-color: #F4E456;
+    margin-top: 10px;
+}
+
+/* LoginPage right */
+.lgn_right {
+    width: 43.75%;
+}
+.lgn_right button {
+    width: 100%;
+    height: 60px;
+    line-height: 60px;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 600;
+    background: #000;
+    cursor: pointer;
+}
