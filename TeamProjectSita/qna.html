@@ -1,0 +1,1745 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>세상에서 가장 가벼운 화장품, 시타</title>
+    <link rel="shortcut icon" href="./images/favicon/favcon.png">
+    <link rel="apple-touch-icon=precomposed" href="./images/favicon/favcon.png">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/font.css">
+    <link rel="stylesheet" href="./css/main.css">
+    <!-- 스와이퍼 CSS -->
+    <link rel="stylesheet" href="./css/swiper-bundle.css">
+    <!-- JS 플러그인 파일 -->
+    <script src="./js/jquery-1.12.4.min.js"></script>
+    <script src="./js/jquery-3.3.1.min.js"></script>
+    <script src="./js/prefixfree.min.js"></script>
+    <script src="./js/jquery.scrollTo.min.js"></script>
+    <!-- 상품페이지 CSS -->
+    <link rel="stylesheet" href="./css/product_gnb.css">
+    <link rel="stylesheet" href="./css/inquiry.css">
+</head>
+<body>
+    <!-- #wrap 밖에 위치 -->
+    <!-- Aside SNB -->
+    <aside>
+        <div class="top_sub1">
+            <p><a href="./product.html">50,000원 이상 구매 시 무료배송</a></p>
+        </div>
+        <div class="top_sub2">
+            <p><a href="./join.html">회원가입 약관 모두 동의 시 적립금 3,000원 지급</a></p>
+        </div>
+    </aside>
+    <!-- /Aside SNB -->
+    <!-- #wrap 밖에 위치 -->
+    
+    
+    <div id="wrap">
+        <!-- 공통 Header -->
+        <div class="fix_top">
+            <header>
+                <!-- LOGO + GNB Menu -->
+                <div class="menu_wrap">
+                    <div class="menu">
+                        <nav>
+                            <ul>
+                                <li><a href="./intro.html">소개</a></li>
+                                <li><a href="./product.html">제품</a></li>
+                                <li class="innovate"><a href="#">혁신</a></li>
+                                <li class="involve"><a href="#">참여</a></li>
+                            </ul>
+                        </nav>
+                    </div>
+                    <div class="logo">
+                        <a href="./index.html"><img src="./images/icon/logo_black.svg" alt="로고화이트"></a>
+                    </div>
+                    <div class="menu_aside">
+                        <a href="./basket.html"><img src="./images/icon/bucket_black.svg" alt="장바구니화이트"></a>
+                        <a href="./login.html"><img src="./images/icon/person_hb.svg" alt="프로필화이트"></a>
+                        <div class="lang">
+                            <ul>
+                                <li class="icon_change">한국어&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<i class="fa fa-angle-down" aria-hidden="true"></i></li>
+                                <li class="icon_display">한국어</li>
+                                <li>English</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <!-- /LOGO + GNB Menu -->
+                <div class="menu_hover">
+                    <div class="dl_wrap">
+                        <div class="tab_innovate">
+                            <dl>
+                                <dt>혁신</dt>
+                                <dd><a href="./innovation.html">여정</a></dd>
+                                <dd><a href="./plastic.html">플라스틱 분해</a></dd>
+                                <dd><a href="#">일회용 컵</a></dd>
+                            </dl>
+                        </div>
+                        <div class="tab_involve">
+                            <dl>
+                                <dt>참여</dt>
+                                <dd><a href="#">시타 프로젝트</a></dd>
+                                <dd><a href="#">참여</a></dd>
+                            </dl>
+                        </div>
+                    </div>
+                </div>
+            </header>
+        </div>
+        <!-- /공통 Header -->
+
+        <form action="#" class="faq_box">
+            <div class="faq_list">
+                <h2>무엇을 도와드릴까요?</h2>
+                <div class="faq_input">
+                    <input type="text" id="time" placeholder="질문을 검색하세요."autocomplete="off">
+                </div>
+                <div class="faq_layer">
+                    <h5>자주묻는 질문</h5>
+                    <ul>
+                        <li>
+                            <a href="#">
+                                출고 전에 배송지나 상품 변경이 가능 할까요?
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                오늘 샀는데 발송될까요?
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                택배사가 어딜까요?
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                데일리와 인텐시브 크림의 차이는 무엇일까요?
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                남녀노소 사용해도 문제 없는 제품일까요?
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </form>
+        <div class="board_list">
+            <div class="board_list_h">
+                <ul class="cf">
+                    <li class="on" onclick="tab_menu(0);"><a href="#">구매</a></li>
+                    <li><a href="#" onclick="tab_menu(1);">배송</a></li>
+                    <li><a href="#" onclick="tab_menu(2);">제품</a></li>
+                    <li><a href="#" onclick="tab_menu(3);">회원정보</a></li>
+                    <li><a href="#" onclick="tab_menu(4);">뉴제로웨이스트</a></li>
+                    <li><a href="#" onclick="tab_menu(5);">시타프로젝트</a></li>
+                </ul>
+            </div>
+            <!-- 구매 -->
+            <div class="board_table_00">
+                <table class="board_list_table">
+                    <colgroup>
+                        <col style="width: 110px">
+                        <col>
+                    </colgroup>
+                    <tbody>
+                        <tr class="toggle_faq">
+                            <td>환불</td>
+                            <td class="board_tit">
+                                <strong class="btnView">
+                                    <p>반품 정책이 어떻게 될까요?</p>
+                                <strong>
+                            </td>
+                        </tr>
+                        <!-- 가려지는 부분 -->
+                        <tr class="toggle_faq_none">
+                            <td colspan="2" class="board_faq">
+                                <div class="board_text">
+                                    <p>반품 신청 방법</p>
+                                        <p>마이페이지 > 주문내역조회 > 주문상세보기 > 반품신청 > 반품사유 작성 > 반품하려는 상품 선택 > 확인</p>
+                                        <p>&nbsp;</p>
+                                        <p>반품이 가능한 경우</p>
+                                        <p>- 상품을 수령하신 날로부터 30일이내</p>
+                                        <p>&nbsp;</p>
+                                        <p>반품이 불가능한 경우</p>
+                                        
+                                       <p>- 고객님의 책임이 있는 사유로 상품 등이 멸실 또는 훼손된 경우</p>
+                                        - 상품을 수령한지 30일이 지난 상태
+                                        <p>&nbsp;</p>
+                                        <p>&nbsp;</p>
+                                        * 고객님의 마음이 바뀌어 반품을 하실 경우 상품 반송(왕복) 비용은 고객님께서 부담하셔야 합니다.
+                                        (색상 및 사이즈 교환 등 포함)
+                                        <p>&nbsp;</p>
+                                        <p>환불방법</p>
+                                        <p>반품 진행한 주문건에 사용된 결제 방식으로 환불</p>
+                                </div>
+                            </td>
+                        </tr>
+                        <!-- /가려지는 부분 -->
+                        <tr class="toggle_faq">
+                            <td>교환</td>
+                            <td class="board_tit">
+                                <strong class="btnView">
+                                    <p>교환 정책이 어떻게 될까요?</p>
+                                <strong>
+                            </td>
+                        </tr>
+                        <!-- 가려지는 부분 -->
+                        <tr class="toggle_faq_none">
+                            <td colspan="2" class="board_faq">
+                                <div class="board_text">
+                                    <p>반품 신청 방법</p>
+                                        <p>마이페이지 > 주문내역조회 > 주문상세보기 > 반품신청 > 반품사유 작성 > 반품하려는 상품 선택 > 확인</p>
+                                        <p>&nbsp;</p>
+                                        <p>반품이 가능한 경우</p>
+                                        <p>- 상품을 수령하신 날로부터 30일이내</p>
+                                        <p>&nbsp;</p>
+                                        <p>반품이 불가능한 경우</p>
+                                        
+                                       <p>- 고객님의 책임이 있는 사유로 상품 등이 멸실 또는 훼손된 경우</p>
+                                        - 상품을 수령한지 30일이 지난 상태
+                                        <p>&nbsp;</p>
+                                        <p>&nbsp;</p>
+                                        * 고객님의 마음이 바뀌어 반품을 하실 경우 상품 반송(왕복) 비용은 고객님께서 부담하셔야 합니다.
+                                        (색상 및 사이즈 교환 등 포함)
+                                        <p>&nbsp;</p>
+                                        <p>환불방법</p>
+                                        <p>반품 진행한 주문건에 사용된 결제 방식으로 환불</p>
+                                </div>
+                            </td>
+                        </tr>
+                        <!-- /가려지는 부분 -->                        
+                        <tr class="toggle_faq">
+                            <td>비회원</td>
+                            <td class="board_tit">
+                                <strong class="btnView">
+                                    <p>비회원으로 구매했는데 주문정보를 어떻게 확인 할 수 있을까요?</p>
+                                <strong>
+                            </td>
+                        </tr>
+                        <!-- 가려지는 부분 -->
+                        <tr class="toggle_faq_none">
+                            <td colspan="2" class="board_faq">
+                                <div class="board_text">
+                                    <p>반품 신청 방법</p>
+                                        <p>마이페이지 > 주문내역조회 > 주문상세보기 > 반품신청 > 반품사유 작성 > 반품하려는 상품 선택 > 확인</p>
+                                        <p>&nbsp;</p>
+                                        <p>반품이 가능한 경우</p>
+                                        <p>- 상품을 수령하신 날로부터 30일이내</p>
+                                        <p>&nbsp;</p>
+                                        <p>반품이 불가능한 경우</p>
+                                        
+                                       <p>- 고객님의 책임이 있는 사유로 상품 등이 멸실 또는 훼손된 경우</p>
+                                        - 상품을 수령한지 30일이 지난 상태
+                                        <p>&nbsp;</p>
+                                        <p>&nbsp;</p>
+                                        * 고객님의 마음이 바뀌어 반품을 하실 경우 상품 반송(왕복) 비용은 고객님께서 부담하셔야 합니다.
+                                        (색상 및 사이즈 교환 등 포함)
+                                        <p>&nbsp;</p>
+                                        <p>환불방법</p>
+                                        <p>반품 진행한 주문건에 사용된 결제 방식으로 환불</p>
+                                </div>
+                            </td>
+                        </tr>
+                        <!-- /가려지는 부분 -->
+                        <tr class="toggle_faq">
+                            <td>비회원</td>
+                            <td class="board_tit">
+                                <strong class="btnView">
+                                    <p>비회원으로 구매했는데 주문번호를 어디서 확인 할 수 있을까요?</p>
+                                <strong>
+                            </td>
+                        </tr>
+                        <!-- 가려지는 부분 -->
+                        <tr class="toggle_faq_none">
+                            <td colspan="2" class="board_faq">
+                                <div class="board_text">
+                                    <p>반품 신청 방법</p>
+                                        <p>마이페이지 > 주문내역조회 > 주문상세보기 > 반품신청 > 반품사유 작성 > 반품하려는 상품 선택 > 확인</p>
+                                        <p>&nbsp;</p>
+                                        <p>반품이 가능한 경우</p>
+                                        <p>- 상품을 수령하신 날로부터 30일이내</p>
+                                        <p>&nbsp;</p>
+                                        <p>반품이 불가능한 경우</p>
+                                        
+                                       <p>- 고객님의 책임이 있는 사유로 상품 등이 멸실 또는 훼손된 경우</p>
+                                        - 상품을 수령한지 30일이 지난 상태
+                                        <p>&nbsp;</p>
+                                        <p>&nbsp;</p>
+                                        * 고객님의 마음이 바뀌어 반품을 하실 경우 상품 반송(왕복) 비용은 고객님께서 부담하셔야 합니다.
+                                        (색상 및 사이즈 교환 등 포함)
+                                        <p>&nbsp;</p>
+                                        <p>환불방법</p>
+                                        <p>반품 진행한 주문건에 사용된 결제 방식으로 환불</p>
+                                </div>
+                            </td>
+                        </tr>
+                        <!-- /가려지는 부분 -->                        
+                        <tr class="toggle_faq">
+                            <td>구매</td>
+                            <td class="board_tit">
+                                <strong class="btnView">
+                                    <p>현금영수증 발행 요청은 어디서 진행될까요?</p>
+                                <strong>
+                            </td>
+                        </tr>
+                        <!-- 가려지는 부분 -->
+                        <tr class="toggle_faq_none">
+                            <td colspan="2" class="board_faq">
+                                <div class="board_text">
+                                    <p>반품 신청 방법</p>
+                                        <p>마이페이지 > 주문내역조회 > 주문상세보기 > 반품신청 > 반품사유 작성 > 반품하려는 상품 선택 > 확인</p>
+                                        <p>&nbsp;</p>
+                                        <p>반품이 가능한 경우</p>
+                                        <p>- 상품을 수령하신 날로부터 30일이내</p>
+                                        <p>&nbsp;</p>
+                                        <p>반품이 불가능한 경우</p>
+                                        
+                                       <p>- 고객님의 책임이 있는 사유로 상품 등이 멸실 또는 훼손된 경우</p>
+                                        - 상품을 수령한지 30일이 지난 상태
+                                        <p>&nbsp;</p>
+                                        <p>&nbsp;</p>
+                                        * 고객님의 마음이 바뀌어 반품을 하실 경우 상품 반송(왕복) 비용은 고객님께서 부담하셔야 합니다.
+                                        (색상 및 사이즈 교환 등 포함)
+                                        <p>&nbsp;</p>
+                                        <p>환불방법</p>
+                                        <p>반품 진행한 주문건에 사용된 결제 방식으로 환불</p>
+                                </div>
+                            </td>
+                        </tr>
+                        <!-- /가려지는 부분 -->                       
+                        <tr class="toggle_faq">
+                            <td>구매</td>
+                            <td class="board_tit">
+                                <strong class="btnView">
+                                    <p>카드 결제 외에 다른 결제수단 이용이 가능할까요? </p>
+                                <strong>
+                            </td>
+                        </tr>
+                        <!-- 가려지는 부분 -->
+                        <tr class="toggle_faq_none">
+                            <td colspan="2" class="board_faq">
+                                <div class="board_text">
+                                    <p>반품 신청 방법</p>
+                                        <p>마이페이지 > 주문내역조회 > 주문상세보기 > 반품신청 > 반품사유 작성 > 반품하려는 상품 선택 > 확인</p>
+                                        <p>&nbsp;</p>
+                                        <p>반품이 가능한 경우</p>
+                                        <p>- 상품을 수령하신 날로부터 30일이내</p>
+                                        <p>&nbsp;</p>
+                                        <p>반품이 불가능한 경우</p>
+                                        
+                                       <p>- 고객님의 책임이 있는 사유로 상품 등이 멸실 또는 훼손된 경우</p>
+                                        - 상품을 수령한지 30일이 지난 상태
+                                        <p>&nbsp;</p>
+                                        <p>&nbsp;</p>
+                                        * 고객님의 마음이 바뀌어 반품을 하실 경우 상품 반송(왕복) 비용은 고객님께서 부담하셔야 합니다.
+                                        (색상 및 사이즈 교환 등 포함)
+                                        <p>&nbsp;</p>
+                                        <p>환불방법</p>
+                                        <p>반품 진행한 주문건에 사용된 결제 방식으로 환불</p>
+                                </div>
+                            </td>
+                        </tr>
+                        <!-- /가려지는 부분 -->                        
+                        <tr class="toggle_faq">
+                            <td>환불</td>
+                            <td class="board_tit">
+                                <strong class="btnView">
+                                    <p>출고 전에 취소가 될까요?</p>
+                                <strong>
+                            </td>
+                        </tr>
+                        <!-- 가려지는 부분 -->
+                        <tr class="toggle_faq_none">
+                            <td colspan="2" class="board_faq">
+                                <div class="board_text">
+                                    <p>반품 신청 방법</p>
+                                        <p>마이페이지 > 주문내역조회 > 주문상세보기 > 반품신청 > 반품사유 작성 > 반품하려는 상품 선택 > 확인</p>
+                                        <p>&nbsp;</p>
+                                        <p>반품이 가능한 경우</p>
+                                        <p>- 상품을 수령하신 날로부터 30일이내</p>
+                                        <p>&nbsp;</p>
+                                        <p>반품이 불가능한 경우</p>
+                                        
+                                       <p>- 고객님의 책임이 있는 사유로 상품 등이 멸실 또는 훼손된 경우</p>
+                                        - 상품을 수령한지 30일이 지난 상태
+                                        <p>&nbsp;</p>
+                                        <p>&nbsp;</p>
+                                        * 고객님의 마음이 바뀌어 반품을 하실 경우 상품 반송(왕복) 비용은 고객님께서 부담하셔야 합니다.
+                                        (색상 및 사이즈 교환 등 포함)
+                                        <p>&nbsp;</p>
+                                        <p>환불방법</p>
+                                        <p>반품 진행한 주문건에 사용된 결제 방식으로 환불</p>
+                                </div>
+                            </td>
+                        </tr>
+                        <!-- /가려지는 부분 -->                        
+                        <tr class="toggle_faq">
+                            <td>환불</td>
+                            <td class="board_tit">
+                                <strong class="btnView">
+                                    <p>출고 전에 배송지나 상품 변경이 가능 할까요?</p>
+                                <strong>
+                            </td>
+                        </tr>
+                        <!-- 가려지는 부분 -->
+                        <tr class="toggle_faq_none">
+                            <td colspan="2" class="board_faq">
+                                <div class="board_text">
+                                    <p>반품 신청 방법</p>
+                                        <p>마이페이지 > 주문내역조회 > 주문상세보기 > 반품신청 > 반품사유 작성 > 반품하려는 상품 선택 > 확인</p>
+                                        <p>&nbsp;</p>
+                                        <p>반품이 가능한 경우</p>
+                                        <p>- 상품을 수령하신 날로부터 30일이내</p>
+                                        <p>&nbsp;</p>
+                                        <p>반품이 불가능한 경우</p>
+                                        
+                                       <p>- 고객님의 책임이 있는 사유로 상품 등이 멸실 또는 훼손된 경우</p>
+                                        - 상품을 수령한지 30일이 지난 상태
+                                        <p>&nbsp;</p>
+                                        <p>&nbsp;</p>
+                                        * 고객님의 마음이 바뀌어 반품을 하실 경우 상품 반송(왕복) 비용은 고객님께서 부담하셔야 합니다.
+                                        (색상 및 사이즈 교환 등 포함)
+                                        <p>&nbsp;</p>
+                                        <p>환불방법</p>
+                                        <p>반품 진행한 주문건에 사용된 결제 방식으로 환불</p>
+                                </div>
+                            </td>
+                        </tr>
+                        <!-- /가려지는 부분 -->
+
+                        <tr class="toggle_faq">
+                            <td>환불</td>
+                            <td class="board_tit">
+                                <strong class="btnView">
+                                    <p>오프라인 매장은 없을까요? </p>
+                                <strong>
+                            </td>
+                        </tr>  
+                        <!-- 가려지는 부분 -->
+                        <tr class="toggle_faq_none">
+                            <td colspan="2" class="board_faq">
+                                <div class="board_text">
+                                    <p>반품 신청 방법</p>
+                                        <p>마이페이지 > 주문내역조회 > 주문상세보기 > 반품신청 > 반품사유 작성 > 반품하려는 상품 선택 > 확인</p>
+                                        <p>&nbsp;</p>
+                                        <p>반품이 가능한 경우</p>
+                                        <p>- 상품을 수령하신 날로부터 30일이내</p>
+                                        <p>&nbsp;</p>
+                                        <p>반품이 불가능한 경우</p>
+                                        
+                                       <p>- 고객님의 책임이 있는 사유로 상품 등이 멸실 또는 훼손된 경우</p>
+                                        - 상품을 수령한지 30일이 지난 상태
+                                        <p>&nbsp;</p>
+                                        <p>&nbsp;</p>
+                                        * 고객님의 마음이 바뀌어 반품을 하실 경우 상품 반송(왕복) 비용은 고객님께서 부담하셔야 합니다.
+                                        (색상 및 사이즈 교환 등 포함)
+                                        <p>&nbsp;</p>
+                                        <p>환불방법</p>
+                                        <p>반품 진행한 주문건에 사용된 결제 방식으로 환불</p>
+                                </div>
+                            </td>
+                        </tr>
+                        <!-- /가려지는 부분 -->                                          
+                        <tr class="toggle_faq">
+                            <td>환불</td>
+                            <td class="board_tit">
+                                <strong class="btnView">
+                                    <p>교환 신청 후 반품으로 변경하려고 하는데 어떻게 해야 할까요? </p>
+                                <strong>
+                            </td>
+                        </tr>     
+                        <!-- 가려지는 부분 -->
+                        <tr class="toggle_faq_none">
+                            <td colspan="2" class="board_faq">
+                                <div class="board_text">
+                                    <p>반품 신청 방법</p>
+                                        <p>마이페이지 > 주문내역조회 > 주문상세보기 > 반품신청 > 반품사유 작성 > 반품하려는 상품 선택 > 확인</p>
+                                        <p>&nbsp;</p>
+                                        <p>반품이 가능한 경우</p>
+                                        <p>- 상품을 수령하신 날로부터 30일이내</p>
+                                        <p>&nbsp;</p>
+                                        <p>반품이 불가능한 경우</p>
+                                        
+                                       <p>- 고객님의 책임이 있는 사유로 상품 등이 멸실 또는 훼손된 경우</p>
+                                        - 상품을 수령한지 30일이 지난 상태
+                                        <p>&nbsp;</p>
+                                        <p>&nbsp;</p>
+                                        * 고객님의 마음이 바뀌어 반품을 하실 경우 상품 반송(왕복) 비용은 고객님께서 부담하셔야 합니다.
+                                        (색상 및 사이즈 교환 등 포함)
+                                        <p>&nbsp;</p>
+                                        <p>환불방법</p>
+                                        <p>반품 진행한 주문건에 사용된 결제 방식으로 환불</p>
+                                </div>
+                            </td>
+                        </tr>
+                        <!-- /가려지는 부분 -->                       
+                    </tbody>
+                </table>
+            </div>
+            <!-- /구매 -->
+            <!-- 배송 -->
+            <div class="board_table_01">
+                <table class="board_list_table">
+                    <colgroup>
+                        <col style="width: 110px">
+                        <col>
+                    </colgroup>
+                    <tbody>
+                        <tr class="toggle_faq">
+                            <td>
+                                배송
+                            </td>
+                            <td class="board_tit">
+                                <strong class="btnView">
+                                    <p>무료 배송 조건이 어떻게 될까요?</p>
+                                <strong>
+                            </td>
+                        </tr>
+                        <!-- 가려지는 부분 -->
+                        <tr class="toggle_faq_none">
+                            <td colspan="2" class="board_faq">
+                                <div class="board_text">
+                                    <p>반품 신청 방법</p>
+                                        <p>마이페이지 > 주문내역조회 > 주문상세보기 > 반품신청 > 반품사유 작성 > 반품하려는 상품 선택 > 확인</p>
+                                        <p>&nbsp;</p>
+                                        <p>반품이 가능한 경우</p>
+                                        <p>- 상품을 수령하신 날로부터 30일이내</p>
+                                        <p>&nbsp;</p>
+                                        <p>반품이 불가능한 경우</p>
+                                        
+                                       <p>- 고객님의 책임이 있는 사유로 상품 등이 멸실 또는 훼손된 경우</p>
+                                        - 상품을 수령한지 30일이 지난 상태
+                                        <p>&nbsp;</p>
+                                        <p>&nbsp;</p>
+                                        * 고객님의 마음이 바뀌어 반품을 하실 경우 상품 반송(왕복) 비용은 고객님께서 부담하셔야 합니다.
+                                        (색상 및 사이즈 교환 등 포함)
+                                        <p>&nbsp;</p>
+                                        <p>환불방법</p>
+                                        <p>반품 진행한 주문건에 사용된 결제 방식으로 환불</p>
+                                </div>
+                            </td>
+                        </tr>
+                        <!-- /가려지는 부분 -->
+                        <tr class="toggle_faq">
+                            <td>배송</td>
+                            <td class="board_tit">
+                                <strong class="btnView">
+                                    <p>송장에 '배송완료'라고 확인되는데 왜 물건이 도착하지 않을까요?</p>
+                                <strong>
+                            </td>
+                        </tr>
+                        <!-- 가려지는 부분 -->
+                        <tr class="toggle_faq_none">
+                            <td colspan="2" class="board_faq">
+                                <div class="board_text">
+                                    <p>반품 신청 방법</p>
+                                        <p>마이페이지 > 주문내역조회 > 주문상세보기 > 반품신청 > 반품사유 작성 > 반품하려는 상품 선택 > 확인</p>
+                                        <p>&nbsp;</p>
+                                        <p>반품이 가능한 경우</p>
+                                        <p>- 상품을 수령하신 날로부터 30일이내</p>
+                                        <p>&nbsp;</p>
+                                        <p>반품이 불가능한 경우</p>
+                                        
+                                       <p>- 고객님의 책임이 있는 사유로 상품 등이 멸실 또는 훼손된 경우</p>
+                                        - 상품을 수령한지 30일이 지난 상태
+                                        <p>&nbsp;</p>
+                                        <p>&nbsp;</p>
+                                        * 고객님의 마음이 바뀌어 반품을 하실 경우 상품 반송(왕복) 비용은 고객님께서 부담하셔야 합니다.
+                                        (색상 및 사이즈 교환 등 포함)
+                                        <p>&nbsp;</p>
+                                        <p>환불방법</p>
+                                        <p>반품 진행한 주문건에 사용된 결제 방식으로 환불</p>
+                                </div>
+                            </td>
+                        </tr>
+                        <!-- /가려지는 부분 -->                        
+                        <tr class="toggle_faq">
+                            <td>배송</td>
+                            <td class="board_tit">
+                                <strong class="btnView">
+                                    <p>주문한 제품이 파손되어 도착했는데 어떻게 하면 될까요?</p>
+                                <strong>
+                            </td>
+                        </tr>
+                        <!-- 가려지는 부분 -->
+                        <tr class="toggle_faq_none">
+                            <td colspan="2" class="board_faq">
+                                <div class="board_text">
+                                    <p>반품 신청 방법</p>
+                                        <p>마이페이지 > 주문내역조회 > 주문상세보기 > 반품신청 > 반품사유 작성 > 반품하려는 상품 선택 > 확인</p>
+                                        <p>&nbsp;</p>
+                                        <p>반품이 가능한 경우</p>
+                                        <p>- 상품을 수령하신 날로부터 30일이내</p>
+                                        <p>&nbsp;</p>
+                                        <p>반품이 불가능한 경우</p>
+                                        
+                                       <p>- 고객님의 책임이 있는 사유로 상품 등이 멸실 또는 훼손된 경우</p>
+                                        - 상품을 수령한지 30일이 지난 상태
+                                        <p>&nbsp;</p>
+                                        <p>&nbsp;</p>
+                                        * 고객님의 마음이 바뀌어 반품을 하실 경우 상품 반송(왕복) 비용은 고객님께서 부담하셔야 합니다.
+                                        (색상 및 사이즈 교환 등 포함)
+                                        <p>&nbsp;</p>
+                                        <p>환불방법</p>
+                                        <p>반품 진행한 주문건에 사용된 결제 방식으로 환불</p>
+                                </div>
+                            </td>
+                        </tr>
+                        <!-- /가려지는 부분 -->
+                        <tr class="toggle_faq">
+                            <td>배송</td>
+                            <td class="board_tit">
+                                <strong class="btnView">
+                                    <p>주문한 제품과 다르게 도착했는데 어떻게 하면 될까요?</p>
+                                <strong>
+                            </td>
+                        </tr>
+                        <!-- 가려지는 부분 -->
+                        <tr class="toggle_faq_none">
+                            <td colspan="2" class="board_faq">
+                                <div class="board_text">
+                                    <p>반품 신청 방법</p>
+                                        <p>마이페이지 > 주문내역조회 > 주문상세보기 > 반품신청 > 반품사유 작성 > 반품하려는 상품 선택 > 확인</p>
+                                        <p>&nbsp;</p>
+                                        <p>반품이 가능한 경우</p>
+                                        <p>- 상품을 수령하신 날로부터 30일이내</p>
+                                        <p>&nbsp;</p>
+                                        <p>반품이 불가능한 경우</p>
+                                        
+                                       <p>- 고객님의 책임이 있는 사유로 상품 등이 멸실 또는 훼손된 경우</p>
+                                        - 상품을 수령한지 30일이 지난 상태
+                                        <p>&nbsp;</p>
+                                        <p>&nbsp;</p>
+                                        * 고객님의 마음이 바뀌어 반품을 하실 경우 상품 반송(왕복) 비용은 고객님께서 부담하셔야 합니다.
+                                        (색상 및 사이즈 교환 등 포함)
+                                        <p>&nbsp;</p>
+                                        <p>환불방법</p>
+                                        <p>반품 진행한 주문건에 사용된 결제 방식으로 환불</p>
+                                </div>
+                            </td>
+                        </tr>
+                        <!-- /가려지는 부분 -->                        
+                        <tr class="toggle_faq">
+                            <td>배송</td>
+                            <td class="board_tit">
+                                <strong class="btnView">
+                                    <p>해외 배송이 될까요?</p>
+                                <strong>
+                            </td>
+                        </tr>
+                        <!-- 가려지는 부분 -->
+                        <tr class="toggle_faq_none">
+                            <td colspan="2" class="board_faq">
+                                <div class="board_text">
+                                    <p>반품 신청 방법</p>
+                                        <p>마이페이지 > 주문내역조회 > 주문상세보기 > 반품신청 > 반품사유 작성 > 반품하려는 상품 선택 > 확인</p>
+                                        <p>&nbsp;</p>
+                                        <p>반품이 가능한 경우</p>
+                                        <p>- 상품을 수령하신 날로부터 30일이내</p>
+                                        <p>&nbsp;</p>
+                                        <p>반품이 불가능한 경우</p>
+                                        
+                                       <p>- 고객님의 책임이 있는 사유로 상품 등이 멸실 또는 훼손된 경우</p>
+                                        - 상품을 수령한지 30일이 지난 상태
+                                        <p>&nbsp;</p>
+                                        <p>&nbsp;</p>
+                                        * 고객님의 마음이 바뀌어 반품을 하실 경우 상품 반송(왕복) 비용은 고객님께서 부담하셔야 합니다.
+                                        (색상 및 사이즈 교환 등 포함)
+                                        <p>&nbsp;</p>
+                                        <p>환불방법</p>
+                                        <p>반품 진행한 주문건에 사용된 결제 방식으로 환불</p>
+                                </div>
+                            </td>
+                        </tr>
+                        <!-- /가려지는 부분 -->                       
+                        <tr class="toggle_faq">
+                            <td>배송</td>
+                            <td class="board_tit">
+                                <strong class="btnView">
+                                    <p>제품이 모자르게 도착했는데 어떻게 하면 될까요? </p>
+                                <strong>
+                            </td>
+                        </tr>
+                        <!-- 가려지는 부분 -->
+                        <tr class="toggle_faq_none">
+                            <td colspan="2" class="board_faq">
+                                <div class="board_text">
+                                    <p>반품 신청 방법</p>
+                                        <p>마이페이지 > 주문내역조회 > 주문상세보기 > 반품신청 > 반품사유 작성 > 반품하려는 상품 선택 > 확인</p>
+                                        <p>&nbsp;</p>
+                                        <p>반품이 가능한 경우</p>
+                                        <p>- 상품을 수령하신 날로부터 30일이내</p>
+                                        <p>&nbsp;</p>
+                                        <p>반품이 불가능한 경우</p>
+                                        
+                                       <p>- 고객님의 책임이 있는 사유로 상품 등이 멸실 또는 훼손된 경우</p>
+                                        - 상품을 수령한지 30일이 지난 상태
+                                        <p>&nbsp;</p>
+                                        <p>&nbsp;</p>
+                                        * 고객님의 마음이 바뀌어 반품을 하실 경우 상품 반송(왕복) 비용은 고객님께서 부담하셔야 합니다.
+                                        (색상 및 사이즈 교환 등 포함)
+                                        <p>&nbsp;</p>
+                                        <p>환불방법</p>
+                                        <p>반품 진행한 주문건에 사용된 결제 방식으로 환불</p>
+                                </div>
+                            </td>
+                        </tr>
+                        <!-- /가려지는 부분 -->                        
+                        <tr class="toggle_faq">
+                            <td>배송</td>
+                            <td class="board_tit">
+                                <strong class="btnView">
+                                    <p>송장을 안내받았는데 왜 이동하지 않을까요?</p>
+                                <strong>
+                            </td>
+                        </tr>
+                        <!-- 가려지는 부분 -->
+                        <tr class="toggle_faq_none">
+                            <td colspan="2" class="board_faq">
+                                <div class="board_text">
+                                    <p>반품 신청 방법</p>
+                                        <p>마이페이지 > 주문내역조회 > 주문상세보기 > 반품신청 > 반품사유 작성 > 반품하려는 상품 선택 > 확인</p>
+                                        <p>&nbsp;</p>
+                                        <p>반품이 가능한 경우</p>
+                                        <p>- 상품을 수령하신 날로부터 30일이내</p>
+                                        <p>&nbsp;</p>
+                                        <p>반품이 불가능한 경우</p>
+                                        
+                                       <p>- 고객님의 책임이 있는 사유로 상품 등이 멸실 또는 훼손된 경우</p>
+                                        - 상품을 수령한지 30일이 지난 상태
+                                        <p>&nbsp;</p>
+                                        <p>&nbsp;</p>
+                                        * 고객님의 마음이 바뀌어 반품을 하실 경우 상품 반송(왕복) 비용은 고객님께서 부담하셔야 합니다.
+                                        (색상 및 사이즈 교환 등 포함)
+                                        <p>&nbsp;</p>
+                                        <p>환불방법</p>
+                                        <p>반품 진행한 주문건에 사용된 결제 방식으로 환불</p>
+                                </div>
+                            </td>
+                        </tr>
+                        <!-- /가려지는 부분 -->                        
+                        <tr class="toggle_faq">
+                            <td>배송</td>
+                            <td class="board_tit">
+                                <strong class="btnView">
+                                    <p>구매 후 언제쯤 도착할까요?</p>
+                                <strong>
+                            </td>
+                        </tr>
+                        <!-- 가려지는 부분 -->
+                        <tr class="toggle_faq_none">
+                            <td colspan="2" class="board_faq">
+                                <div class="board_text">
+                                    <p>반품 신청 방법</p>
+                                        <p>마이페이지 > 주문내역조회 > 주문상세보기 > 반품신청 > 반품사유 작성 > 반품하려는 상품 선택 > 확인</p>
+                                        <p>&nbsp;</p>
+                                        <p>반품이 가능한 경우</p>
+                                        <p>- 상품을 수령하신 날로부터 30일이내</p>
+                                        <p>&nbsp;</p>
+                                        <p>반품이 불가능한 경우</p>
+                                        
+                                       <p>- 고객님의 책임이 있는 사유로 상품 등이 멸실 또는 훼손된 경우</p>
+                                        - 상품을 수령한지 30일이 지난 상태
+                                        <p>&nbsp;</p>
+                                        <p>&nbsp;</p>
+                                        * 고객님의 마음이 바뀌어 반품을 하실 경우 상품 반송(왕복) 비용은 고객님께서 부담하셔야 합니다.
+                                        (색상 및 사이즈 교환 등 포함)
+                                        <p>&nbsp;</p>
+                                        <p>환불방법</p>
+                                        <p>반품 진행한 주문건에 사용된 결제 방식으로 환불</p>
+                                </div>
+                            </td>
+                        </tr>
+                        <!-- /가려지는 부분 -->
+
+                        <tr class="toggle_faq">
+                            <td>배송</td>
+                            <td class="board_tit">
+                                <strong class="btnView">
+                                    <p>택배사가 어딜까요? </p>
+                                <strong>
+                            </td>
+                        </tr>  
+                        <!-- 가려지는 부분 -->
+                        <tr class="toggle_faq_none">
+                            <td colspan="2" class="board_faq">
+                                <div class="board_text">
+                                    <p>반품 신청 방법</p>
+                                        <p>마이페이지 > 주문내역조회 > 주문상세보기 > 반품신청 > 반품사유 작성 > 반품하려는 상품 선택 > 확인</p>
+                                        <p>&nbsp;</p>
+                                        <p>반품이 가능한 경우</p>
+                                        <p>- 상품을 수령하신 날로부터 30일이내</p>
+                                        <p>&nbsp;</p>
+                                        <p>반품이 불가능한 경우</p>
+                                        
+                                       <p>- 고객님의 책임이 있는 사유로 상품 등이 멸실 또는 훼손된 경우</p>
+                                        - 상품을 수령한지 30일이 지난 상태
+                                        <p>&nbsp;</p>
+                                        <p>&nbsp;</p>
+                                        * 고객님의 마음이 바뀌어 반품을 하실 경우 상품 반송(왕복) 비용은 고객님께서 부담하셔야 합니다.
+                                        (색상 및 사이즈 교환 등 포함)
+                                        <p>&nbsp;</p>
+                                        <p>환불방법</p>
+                                        <p>반품 진행한 주문건에 사용된 결제 방식으로 환불</p>
+                                </div>
+                            </td>
+                        </tr>
+                        <!-- /가려지는 부분 -->                                          
+                        <tr class="toggle_faq">
+                            <td>배송</td>
+                            <td class="board_tit">
+                                <strong class="btnView">
+                                    <p>오늘 샀는데 발송될까요? </p>
+                                <strong>
+                            </td>
+                        </tr>     
+                        <!-- 가려지는 부분 -->
+                        <tr class="toggle_faq_none">
+                            <td colspan="2" class="board_faq">
+                                <div class="board_text">
+                                    <p>반품 신청 방법</p>
+                                        <p>마이페이지 > 주문내역조회 > 주문상세보기 > 반품신청 > 반품사유 작성 > 반품하려는 상품 선택 > 확인</p>
+                                        <p>&nbsp;</p>
+                                        <p>반품이 가능한 경우</p>
+                                        <p>- 상품을 수령하신 날로부터 30일이내</p>
+                                        <p>&nbsp;</p>
+                                        <p>반품이 불가능한 경우</p>
+                                        
+                                       <p>- 고객님의 책임이 있는 사유로 상품 등이 멸실 또는 훼손된 경우</p>
+                                        - 상품을 수령한지 30일이 지난 상태
+                                        <p>&nbsp;</p>
+                                        <p>&nbsp;</p>
+                                        * 고객님의 마음이 바뀌어 반품을 하실 경우 상품 반송(왕복) 비용은 고객님께서 부담하셔야 합니다.
+                                        (색상 및 사이즈 교환 등 포함)
+                                        <p>&nbsp;</p>
+                                        <p>환불방법</p>
+                                        <p>반품 진행한 주문건에 사용된 결제 방식으로 환불</p>
+                                </div>
+                            </td>
+                        </tr>
+                        <!-- /가려지는 부분 -->                       
+                    </tbody>
+                </table>
+            </div>
+            <!-- /배송 -->
+            <!-- 제품 -->
+            <div class="board_table_02">
+                <table class="board_list_table">
+                    <colgroup>
+                        <col style="width: 110px">
+                        <col>
+                    </colgroup>
+                    <tbody>
+                        <tr class="toggle_faq">
+                            <td>제품정보</td>
+                            <td class="board_tit">
+                                <strong class="btnView">
+                                    <p>제품 유통기한이 어떻게 될까요?</p>
+                                <strong>
+                            </td>
+                        </tr>
+                        <!-- 가려지는 부분 -->
+                        <tr class="toggle_faq_none">
+                            <td colspan="2" class="board_faq">
+                                <div class="board_text">
+                                 <p>   제품 별 유통기한을 아래와 같이 안내 드립니다.</p>
+
+                                    <p>&nbsp;</p>
+
+                                    <p>- 데일리 수분크림: 2024년 9월 7일</p>
+                                    <p>&nbsp;</p>
+                                    <p>- 인텐시브 수분크림: 2024년 9월 7일</p> 
+                                    <p>&nbsp;</p>
+                                    <p>- 클렌저: 2025년 1월 16일 </p>
+                                    <p>&nbsp;</p>
+                                    <p>- 토너: 2025년 4월 19일 </p>
+                                    
+                                    <p>&nbsp;</p>
+                                    
+                                   <p> 또한 제품 용기 하단에 유통기한이 기재되어 있으며, </p>
+                                    
+                                    <p>개봉 후 사용 기한은 12개월까지 입니다.</p>
+                                </div>
+                            </td>
+                        </tr>
+                        <!-- /가려지는 부분 -->
+                        <tr class="toggle_faq">
+                            <td>제품정보</td>
+                            <td class="board_tit">
+                                <strong class="btnView">
+                                    <p>남녀노소 사용해도 문제 없는 제품일까요?</p>
+                                <strong>
+                            </td>
+                        </tr>
+                        <!-- 가려지는 부분 -->
+                        <tr class="toggle_faq_none">
+                            <td colspan="2" class="board_faq">
+                                <div class="board_text">
+                                    <p>시타의 모든 제품은 성별,나이와 상관없이 피부 타입에 따라 제품을 사용해주시면 됩니다.</p>
+                                    <p>&nbsp;</p>
+                                    <p>&nbsp;</p>
+
+                                    > 피부 타입별 제품 선택
+                                    
+                                    <p>데일리 수분크림의 경우 보습 성분에 중점을 맞춰 만들어진 제품으로 꾸덕한 제형입니다.</p>
+                                    
+                                     
+                                    <p>&nbsp;</p>
+                                   <p> 인텐시브 수분크림의 경우에는 피부 진정 효과에 있는 모란뿌리추출물과 병풀추출물 재료를 넣고 만들어진 제품입니다.</p>
+                                   <p>&nbsp;</p>
+                                   <p> 제형 또한 데일리 제품보다 더 묽게 만들어 피부가 예민하신 분들을 위해 만들어진 제품입니다.</p>
+                                    
+                                     
+                                   <p>&nbsp;</p>
+                                   <p> 극건성,건성 타입의 피부는 수분감과 유분감이 더 높은 데일리 제품 추천드리며,</p>
+                                   <p>&nbsp;</p>
+                                   <p> 수부지,지성,예민성 피부 타입이라면 유분기가 적고 진정 성분이 포함된 인텐시브 제품 추천드립니다.</p>
+                                   <p>&nbsp;</p>
+                                     
+                                    
+                                    <p>다만 영유아, 임산부를 포함한 평소 예민한 피부를 가진 고객님께서는</p>
+                                    <p>&nbsp;</p>
+                                    <p>사용 전 얼굴 외 부위에 소량 발라 테스트해 보시길 권장 드립니다.</p>
+                                </div>
+                            </td>
+                        </tr>
+                        <!-- /가려지는 부분 -->                        
+                        <tr class="toggle_faq">
+                            <td>제품정보</td>
+                            <td class="board_tit">
+                                <strong class="btnView">
+                                    <p>데일리와 인텐시브 크림의 차이는 무엇일까요?</p>
+                                <strong>
+                            </td>
+                        </tr>
+                        <!-- 가려지는 부분 -->
+                        <tr class="toggle_faq_none">
+                            <td colspan="2" class="board_faq">
+                                <div class="board_text">
+                                    <p>반품 신청 방법</p>
+                                        <p>마이페이지 > 주문내역조회 > 주문상세보기 > 반품신청 > 반품사유 작성 > 반품하려는 상품 선택 > 확인</p>
+                                        <p>&nbsp;</p>
+                                        <p>반품이 가능한 경우</p>
+                                        <p>- 상품을 수령하신 날로부터 30일이내</p>
+                                        <p>&nbsp;</p>
+                                        <p>반품이 불가능한 경우</p>
+                                        
+                                       <p>- 고객님의 책임이 있는 사유로 상품 등이 멸실 또는 훼손된 경우</p>
+                                        - 상품을 수령한지 30일이 지난 상태
+                                        <p>&nbsp;</p>
+                                        <p>&nbsp;</p>
+                                        * 고객님의 마음이 바뀌어 반품을 하실 경우 상품 반송(왕복) 비용은 고객님께서 부담하셔야 합니다.
+                                        (색상 및 사이즈 교환 등 포함)
+                                        <p>&nbsp;</p>
+                                        <p>환불방법</p>
+                                        <p>반품 진행한 주문건에 사용된 결제 방식으로 환불</p>
+                                </div>
+                            </td>
+                        </tr>
+                        <!-- /가려지는 부분 -->
+                        <tr class="toggle_faq">
+                            <td>제품정보</td>
+                            <td class="board_tit">
+                                <strong class="btnView">
+                                    <p>시타의 모든 제품은 비건 제품일까요?</p>
+                                <strong>
+                            </td>
+                        </tr>
+                        <!-- 가려지는 부분 -->
+                        <tr class="toggle_faq_none">
+                            <td colspan="2" class="board_faq">
+                                <div class="board_text">
+                                    <p>반품 신청 방법</p>
+                                        <p>마이페이지 > 주문내역조회 > 주문상세보기 > 반품신청 > 반품사유 작성 > 반품하려는 상품 선택 > 확인</p>
+                                        <p>&nbsp;</p>
+                                        <p>반품이 가능한 경우</p>
+                                        <p>- 상품을 수령하신 날로부터 30일이내</p>
+                                        <p>&nbsp;</p>
+                                        <p>반품이 불가능한 경우</p>
+                                        
+                                       <p>- 고객님의 책임이 있는 사유로 상품 등이 멸실 또는 훼손된 경우</p>
+                                        - 상품을 수령한지 30일이 지난 상태
+                                        <p>&nbsp;</p>
+                                        <p>&nbsp;</p>
+                                        * 고객님의 마음이 바뀌어 반품을 하실 경우 상품 반송(왕복) 비용은 고객님께서 부담하셔야 합니다.
+                                        (색상 및 사이즈 교환 등 포함)
+                                        <p>&nbsp;</p>
+                                        <p>환불방법</p>
+                                        <p>반품 진행한 주문건에 사용된 결제 방식으로 환불</p>
+                                </div>
+                            </td>
+                        </tr>
+                        <!-- /가려지는 부분 -->                        
+                        <tr class="toggle_faq">
+                            <td>제품정보</td>
+                            <td class="board_tit">
+                                <strong class="btnView">
+                                    <p>각 제품의 산성도가 어떻게 될까요?</p>
+                                <strong>
+                            </td>
+                        </tr>
+                        <!-- 가려지는 부분 -->
+                        <tr class="toggle_faq_none">
+                            <td colspan="2" class="board_faq">
+                                <div class="board_text">
+                                    <p>반품 신청 방법</p>
+                                        <p>마이페이지 > 주문내역조회 > 주문상세보기 > 반품신청 > 반품사유 작성 > 반품하려는 상품 선택 > 확인</p>
+                                        <p>&nbsp;</p>
+                                        <p>반품이 가능한 경우</p>
+                                        <p>- 상품을 수령하신 날로부터 30일이내</p>
+                                        <p>&nbsp;</p>
+                                        <p>반품이 불가능한 경우</p>
+                                        
+                                       <p>- 고객님의 책임이 있는 사유로 상품 등이 멸실 또는 훼손된 경우</p>
+                                        - 상품을 수령한지 30일이 지난 상태
+                                        <p>&nbsp;</p>
+                                        <p>&nbsp;</p>
+                                        * 고객님의 마음이 바뀌어 반품을 하실 경우 상품 반송(왕복) 비용은 고객님께서 부담하셔야 합니다.
+                                        (색상 및 사이즈 교환 등 포함)
+                                        <p>&nbsp;</p>
+                                        <p>환불방법</p>
+                                        <p>반품 진행한 주문건에 사용된 결제 방식으로 환불</p>
+                                </div>
+                            </td>
+                        </tr>
+                        <!-- /가려지는 부분 -->                       
+                        <tr class="toggle_faq">
+                            <td>제품정보</td>
+                            <td class="board_tit">
+                                <strong class="btnView">
+                                    <p>아이 혹은 임산부가 사용해도 문제가 없을까요?</p>
+                                <strong>
+                            </td>
+                        </tr>
+                        <!-- 가려지는 부분 -->
+                        <tr class="toggle_faq_none">
+                            <td colspan="2" class="board_faq">
+                                <div class="board_text">
+                                    <p>반품 신청 방법</p>
+                                        <p>마이페이지 > 주문내역조회 > 주문상세보기 > 반품신청 > 반품사유 작성 > 반품하려는 상품 선택 > 확인</p>
+                                        <p>&nbsp;</p>
+                                        <p>반품이 가능한 경우</p>
+                                        <p>- 상품을 수령하신 날로부터 30일이내</p>
+                                        <p>&nbsp;</p>
+                                        <p>반품이 불가능한 경우</p>
+                                        
+                                       <p>- 고객님의 책임이 있는 사유로 상품 등이 멸실 또는 훼손된 경우</p>
+                                        - 상품을 수령한지 30일이 지난 상태
+                                        <p>&nbsp;</p>
+                                        <p>&nbsp;</p>
+                                        * 고객님의 마음이 바뀌어 반품을 하실 경우 상품 반송(왕복) 비용은 고객님께서 부담하셔야 합니다.
+                                        (색상 및 사이즈 교환 등 포함)
+                                        <p>&nbsp;</p>
+                                        <p>환불방법</p>
+                                        <p>반품 진행한 주문건에 사용된 결제 방식으로 환불</p>
+                                </div>
+                            </td>
+                        </tr>
+                        <!-- /가려지는 부분 -->                        
+                        <tr class="toggle_faq">
+                            <td>제품정보</td>
+                            <td class="board_tit">
+                                <strong class="btnView">
+                                    <p>제품을 어떻게 보관해야 될까요?</p>
+                                <strong>
+                            </td>
+                        </tr>
+                        <!-- 가려지는 부분 -->
+                        <tr class="toggle_faq_none">
+                            <td colspan="2" class="board_faq">
+                                <div class="board_text">
+                                    <p>반품 신청 방법</p>
+                                        <p>마이페이지 > 주문내역조회 > 주문상세보기 > 반품신청 > 반품사유 작성 > 반품하려는 상품 선택 > 확인</p>
+                                        <p>&nbsp;</p>
+                                        <p>반품이 가능한 경우</p>
+                                        <p>- 상품을 수령하신 날로부터 30일이내</p>
+                                        <p>&nbsp;</p>
+                                        <p>반품이 불가능한 경우</p>
+                                        
+                                       <p>- 고객님의 책임이 있는 사유로 상품 등이 멸실 또는 훼손된 경우</p>
+                                        - 상품을 수령한지 30일이 지난 상태
+                                        <p>&nbsp;</p>
+                                        <p>&nbsp;</p>
+                                        * 고객님의 마음이 바뀌어 반품을 하실 경우 상품 반송(왕복) 비용은 고객님께서 부담하셔야 합니다.
+                                        (색상 및 사이즈 교환 등 포함)
+                                        <p>&nbsp;</p>
+                                        <p>환불방법</p>
+                                        <p>반품 진행한 주문건에 사용된 결제 방식으로 환불</p>
+                                </div>
+                            </td>
+                        </tr>
+                        <!-- /가려지는 부분 -->                        
+                        <tr class="toggle_faq">
+                            <td>리뷰</td>
+                            <td class="board_tit">
+                                <strong class="btnView">
+                                    <p>상품 리뷰 작성 후 적립금은 언제 들어올까요?</p>
+                                <strong>
+                            </td>
+                        </tr>
+                        <!-- 가려지는 부분 -->
+                        <tr class="toggle_faq_none">
+                            <td colspan="2" class="board_faq">
+                                <div class="board_text">
+                                    <p>반품 신청 방법</p>
+                                        <p>마이페이지 > 주문내역조회 > 주문상세보기 > 반품신청 > 반품사유 작성 > 반품하려는 상품 선택 > 확인</p>
+                                        <p>&nbsp;</p>
+                                        <p>반품이 가능한 경우</p>
+                                        <p>- 상품을 수령하신 날로부터 30일이내</p>
+                                        <p>&nbsp;</p>
+                                        <p>반품이 불가능한 경우</p>
+                                        
+                                       <p>- 고객님의 책임이 있는 사유로 상품 등이 멸실 또는 훼손된 경우</p>
+                                        - 상품을 수령한지 30일이 지난 상태
+                                        <p>&nbsp;</p>
+                                        <p>&nbsp;</p>
+                                        * 고객님의 마음이 바뀌어 반품을 하실 경우 상품 반송(왕복) 비용은 고객님께서 부담하셔야 합니다.
+                                        (색상 및 사이즈 교환 등 포함)
+                                        <p>&nbsp;</p>
+                                        <p>환불방법</p>
+                                        <p>반품 진행한 주문건에 사용된 결제 방식으로 환불</p>
+                                </div>
+                            </td>
+                        </tr>
+                        <!-- /가려지는 부분 -->
+
+                        <tr class="toggle_faq">
+                            <td>리뷰</td>
+                            <td class="board_tit">
+                                <strong class="btnView">
+                                    <p>리뷰 작성 시 적립금 지급 조건이 따로 있을까요? </p>
+                                <strong>
+                            </td>
+                        </tr>  
+                        <!-- 가려지는 부분 -->
+                        <tr class="toggle_faq_none">
+                            <td colspan="2" class="board_faq">
+                                <div class="board_text">
+                                    <p>반품 신청 방법</p>
+                                        <p>마이페이지 > 주문내역조회 > 주문상세보기 > 반품신청 > 반품사유 작성 > 반품하려는 상품 선택 > 확인</p>
+                                        <p>&nbsp;</p>
+                                        <p>반품이 가능한 경우</p>
+                                        <p>- 상품을 수령하신 날로부터 30일이내</p>
+                                        <p>&nbsp;</p>
+                                        <p>반품이 불가능한 경우</p>
+                                        
+                                       <p>- 고객님의 책임이 있는 사유로 상품 등이 멸실 또는 훼손된 경우</p>
+                                        - 상품을 수령한지 30일이 지난 상태
+                                        <p>&nbsp;</p>
+                                        <p>&nbsp;</p>
+                                        * 고객님의 마음이 바뀌어 반품을 하실 경우 상품 반송(왕복) 비용은 고객님께서 부담하셔야 합니다.
+                                        (색상 및 사이즈 교환 등 포함)
+                                        <p>&nbsp;</p>
+                                        <p>환불방법</p>
+                                        <p>반품 진행한 주문건에 사용된 결제 방식으로 환불</p>
+                                </div>
+                            </td>
+                        </tr>
+                        <!-- /가려지는 부분 -->                                          
+                        <tr class="toggle_faq">
+                            <td>제품정보</td>
+                            <td class="board_tit">
+                                <strong class="btnView">
+                                    <p>제품이 도착했는데 내용물이 비어있는 것 같아요.  </p>
+                                <strong>
+                            </td>
+                        </tr>     
+                        <!-- 가려지는 부분 -->
+                        <tr class="toggle_faq_none">
+                            <td colspan="2" class="board_faq">
+                                <div class="board_text">
+                                    <p>반품 신청 방법</p>
+                                        <p>마이페이지 > 주문내역조회 > 주문상세보기 > 반품신청 > 반품사유 작성 > 반품하려는 상품 선택 > 확인</p>
+                                        <p>&nbsp;</p>
+                                        <p>반품이 가능한 경우</p>
+                                        <p>- 상품을 수령하신 날로부터 30일이내</p>
+                                        <p>&nbsp;</p>
+                                        <p>반품이 불가능한 경우</p>
+                                        
+                                       <p>- 고객님의 책임이 있는 사유로 상품 등이 멸실 또는 훼손된 경우</p>
+                                        - 상품을 수령한지 30일이 지난 상태
+                                        <p>&nbsp;</p>
+                                        <p>&nbsp;</p>
+                                        * 고객님의 마음이 바뀌어 반품을 하실 경우 상품 반송(왕복) 비용은 고객님께서 부담하셔야 합니다.
+                                        (색상 및 사이즈 교환 등 포함)
+                                        <p>&nbsp;</p>
+                                        <p>환불방법</p>
+                                        <p>반품 진행한 주문건에 사용된 결제 방식으로 환불</p>
+                                </div>
+                            </td>
+                        </tr>
+                        <!-- /가려지는 부분 -->                       
+                    </tbody>
+                </table>
+            </div>
+            <!-- /제품 -->
+            <!-- 회원정보 -->
+            <div class="board_table_03">
+
+                <table class="board_list_table">
+                    <colgroup>
+                        <col style="width: 110px">
+                        <col>
+                    </colgroup>
+                    <tbody>
+                        <tr class="toggle_faq">
+                            <td>쿠폰</td>
+                            <td class="board_tit">
+                                <strong class="btnView">
+                                    <p>쿠폰을 발급 받았는데 어디서 확인할 수 있을까요?</p>
+                                <strong>
+                            </td>
+                        </tr>
+                        <!-- 가려지는 부분 -->
+                        <tr class="toggle_faq_none">
+                            <td colspan="2" class="board_faq">
+                                <div class="board_text">
+                                    <p>반품 신청 방법</p>
+                                        <p>마이페이지 > 주문내역조회 > 주문상세보기 > 반품신청 > 반품사유 작성 > 반품하려는 상품 선택 > 확인</p>
+                                        <p>&nbsp;</p>
+                                        <p>반품이 가능한 경우</p>
+                                        <p>- 상품을 수령하신 날로부터 30일이내</p>
+                                        <p>&nbsp;</p>
+                                        <p>반품이 불가능한 경우</p>
+                                        
+                                       <p>- 고객님의 책임이 있는 사유로 상품 등이 멸실 또는 훼손된 경우</p>
+                                        - 상품을 수령한지 30일이 지난 상태
+                                        <p>&nbsp;</p>
+                                        <p>&nbsp;</p>
+                                        * 고객님의 마음이 바뀌어 반품을 하실 경우 상품 반송(왕복) 비용은 고객님께서 부담하셔야 합니다.
+                                        (색상 및 사이즈 교환 등 포함)
+                                        <p>&nbsp;</p>
+                                        <p>환불방법</p>
+                                        <p>반품 진행한 주문건에 사용된 결제 방식으로 환불</p>
+                                </div>
+                            </td>
+                        </tr>
+                        <!-- /가려지는 부분 -->
+                        <tr class="toggle_faq">
+                            <td>회원정보</td>
+                            <td class="board_tit">
+                                <strong class="btnView">
+                                    <p>이전에 사용했던 배송지로 보내고 싶은데 어디서 확인 가능할까요? </p>
+                                <strong>
+                            </td>
+                        </tr>
+                        <!-- 가려지는 부분 -->
+                        <tr class="toggle_faq_none">
+                            <td colspan="2" class="board_faq">
+                                <div class="board_text">
+                                    <p>반품 신청 방법</p>
+                                        <p>마이페이지 > 주문내역조회 > 주문상세보기 > 반품신청 > 반품사유 작성 > 반품하려는 상품 선택 > 확인</p>
+                                        <p>&nbsp;</p>
+                                        <p>반품이 가능한 경우</p>
+                                        <p>- 상품을 수령하신 날로부터 30일이내</p>
+                                        <p>&nbsp;</p>
+                                        <p>반품이 불가능한 경우</p>
+                                        
+                                       <p>- 고객님의 책임이 있는 사유로 상품 등이 멸실 또는 훼손된 경우</p>
+                                        - 상품을 수령한지 30일이 지난 상태
+                                        <p>&nbsp;</p>
+                                        <p>&nbsp;</p>
+                                        * 고객님의 마음이 바뀌어 반품을 하실 경우 상품 반송(왕복) 비용은 고객님께서 부담하셔야 합니다.
+                                        (색상 및 사이즈 교환 등 포함)
+                                        <p>&nbsp;</p>
+                                        <p>환불방법</p>
+                                        <p>반품 진행한 주문건에 사용된 결제 방식으로 환불</p>
+                                </div>
+                            </td>
+                        </tr>
+                        <!-- /가려지는 부분 -->                        
+                        <tr class="toggle_faq">
+                            <td>탈퇴</td>
+                            <td class="board_tit">
+                                <strong class="btnView">
+                                    <p>회원 탈퇴는 어떻게 할까요? </p>
+                                <strong>
+                            </td>
+                        </tr>
+                        <!-- 가려지는 부분 -->
+                        <tr class="toggle_faq_none">
+                            <td colspan="2" class="board_faq">
+                                <div class="board_text">
+                                    <p>반품 신청 방법</p>
+                                        <p>마이페이지 > 주문내역조회 > 주문상세보기 > 반품신청 > 반품사유 작성 > 반품하려는 상품 선택 > 확인</p>
+                                        <p>&nbsp;</p>
+                                        <p>반품이 가능한 경우</p>
+                                        <p>- 상품을 수령하신 날로부터 30일이내</p>
+                                        <p>&nbsp;</p>
+                                        <p>반품이 불가능한 경우</p>
+                                        
+                                       <p>- 고객님의 책임이 있는 사유로 상품 등이 멸실 또는 훼손된 경우</p>
+                                        - 상품을 수령한지 30일이 지난 상태
+                                        <p>&nbsp;</p>
+                                        <p>&nbsp;</p>
+                                        * 고객님의 마음이 바뀌어 반품을 하실 경우 상품 반송(왕복) 비용은 고객님께서 부담하셔야 합니다.
+                                        (색상 및 사이즈 교환 등 포함)
+                                        <p>&nbsp;</p>
+                                        <p>환불방법</p>
+                                        <p>반품 진행한 주문건에 사용된 결제 방식으로 환불</p>
+                                </div>
+                            </td>
+                        </tr>
+                        <!-- /가려지는 부분 -->
+                        <tr class="toggle_faq">
+                            <td>회원정보</td>
+                            <td class="board_tit">
+                                <strong class="btnView">
+                                    <p>기본 배송지는 어디서 수정할 수 있을까요? </p>
+                                <strong>
+                            </td>
+                        </tr>
+                        <!-- 가려지는 부분 -->
+                        <tr class="toggle_faq_none">
+                            <td colspan="2" class="board_faq">
+                                <div class="board_text">
+                                    <p>반품 신청 방법</p>
+                                        <p>마이페이지 > 주문내역조회 > 주문상세보기 > 반품신청 > 반품사유 작성 > 반품하려는 상품 선택 > 확인</p>
+                                        <p>&nbsp;</p>
+                                        <p>반품이 가능한 경우</p>
+                                        <p>- 상품을 수령하신 날로부터 30일이내</p>
+                                        <p>&nbsp;</p>
+                                        <p>반품이 불가능한 경우</p>
+                                        
+                                       <p>- 고객님의 책임이 있는 사유로 상품 등이 멸실 또는 훼손된 경우</p>
+                                        - 상품을 수령한지 30일이 지난 상태
+                                        <p>&nbsp;</p>
+                                        <p>&nbsp;</p>
+                                        * 고객님의 마음이 바뀌어 반품을 하실 경우 상품 반송(왕복) 비용은 고객님께서 부담하셔야 합니다.
+                                        (색상 및 사이즈 교환 등 포함)
+                                        <p>&nbsp;</p>
+                                        <p>환불방법</p>
+                                        <p>반품 진행한 주문건에 사용된 결제 방식으로 환불</p>
+                                </div>
+                            </td>
+                        </tr>
+                        <!-- /가려지는 부분 -->                        
+                        <tr class="toggle_faq">
+                            <td>회원정보</td>
+                            <td class="board_tit">
+                                <strong class="btnView">
+                                    <p>아이디 혹은 이메일 수정이 가능할까요?</p>
+                                <strong>
+                            </td>
+                        </tr>
+                        <!-- 가려지는 부분 -->
+                        <tr class="toggle_faq_none">
+                            <td colspan="2" class="board_faq">
+                                <div class="board_text">
+                                    <p>반품 신청 방법</p>
+                                        <p>마이페이지 > 주문내역조회 > 주문상세보기 > 반품신청 > 반품사유 작성 > 반품하려는 상품 선택 > 확인</p>
+                                        <p>&nbsp;</p>
+                                        <p>반품이 가능한 경우</p>
+                                        <p>- 상품을 수령하신 날로부터 30일이내</p>
+                                        <p>&nbsp;</p>
+                                        <p>반품이 불가능한 경우</p>
+                                        
+                                       <p>- 고객님의 책임이 있는 사유로 상품 등이 멸실 또는 훼손된 경우</p>
+                                        - 상품을 수령한지 30일이 지난 상태
+                                        <p>&nbsp;</p>
+                                        <p>&nbsp;</p>
+                                        * 고객님의 마음이 바뀌어 반품을 하실 경우 상품 반송(왕복) 비용은 고객님께서 부담하셔야 합니다.
+                                        (색상 및 사이즈 교환 등 포함)
+                                        <p>&nbsp;</p>
+                                        <p>환불방법</p>
+                                        <p>반품 진행한 주문건에 사용된 결제 방식으로 환불</p>
+                                </div>
+                            </td>
+                        </tr>                
+                    </tbody>
+                </table>
+            </div>
+            <!-- /회원정보 -->
+            <!-- 뉴제로웨이스트 -->
+            <div class="board_table_04">
+                <table class="board_list_table">
+                    <colgroup>
+                        <col style="width: 110px">
+                        <col>
+                    </colgroup>
+                    <tbody>
+                        <tr class="toggle_faq">
+                            <td>뉴 제로웨이스트	</td>
+                            <td class="board_tit">
+                                <strong class="btnView">
+                                    <p>뉴 제로웨이스트는 어떤 걸까요?</p>
+                                <strong>
+                            </td>
+                        </tr>
+                        <!-- 가려지는 부분 -->
+                        <tr class="toggle_faq_none">
+                            <td colspan="2" class="board_faq">
+                                <div class="board_text">
+                                    <p>반품 신청 방법</p>
+                                        <p>마이페이지 > 주문내역조회 > 주문상세보기 > 반품신청 > 반품사유 작성 > 반품하려는 상품 선택 > 확인</p>
+                                        <p>&nbsp;</p>
+                                        <p>반품이 가능한 경우</p>
+                                        <p>- 상품을 수령하신 날로부터 30일이내</p>
+                                        <p>&nbsp;</p>
+                                        <p>반품이 불가능한 경우</p>
+                                        
+                                       <p>- 고객님의 책임이 있는 사유로 상품 등이 멸실 또는 훼손된 경우</p>
+                                        - 상품을 수령한지 30일이 지난 상태
+                                        <p>&nbsp;</p>
+                                        <p>&nbsp;</p>
+                                        * 고객님의 마음이 바뀌어 반품을 하실 경우 상품 반송(왕복) 비용은 고객님께서 부담하셔야 합니다.
+                                        (색상 및 사이즈 교환 등 포함)
+                                        <p>&nbsp;</p>
+                                        <p>환불방법</p>
+                                        <p>반품 진행한 주문건에 사용된 결제 방식으로 환불</p>
+                                </div>
+                            </td>
+                        </tr>
+                        <!-- /가려지는 부분 -->
+                        <tr class="toggle_faq">
+                            <td>공병수거</td>
+                            <td class="board_tit">
+                                <strong class="btnView">
+                                    <p>공병수거 낱개 단위로는 신청이 불가능 할까요?</p>
+                                <strong>
+                            </td>
+                        </tr>
+                        <!-- 가려지는 부분 -->
+                        <tr class="toggle_faq_none">
+                            <td colspan="2" class="board_faq">
+                                <div class="board_text">
+                                    <p>반품 신청 방법</p>
+                                        <p>마이페이지 > 주문내역조회 > 주문상세보기 > 반품신청 > 반품사유 작성 > 반품하려는 상품 선택 > 확인</p>
+                                        <p>&nbsp;</p>
+                                        <p>반품이 가능한 경우</p>
+                                        <p>- 상품을 수령하신 날로부터 30일이내</p>
+                                        <p>&nbsp;</p>
+                                        <p>반품이 불가능한 경우</p>
+                                        
+                                       <p>- 고객님의 책임이 있는 사유로 상품 등이 멸실 또는 훼손된 경우</p>
+                                        - 상품을 수령한지 30일이 지난 상태
+                                        <p>&nbsp;</p>
+                                        <p>&nbsp;</p>
+                                        * 고객님의 마음이 바뀌어 반품을 하실 경우 상품 반송(왕복) 비용은 고객님께서 부담하셔야 합니다.
+                                        (색상 및 사이즈 교환 등 포함)
+                                        <p>&nbsp;</p>
+                                        <p>환불방법</p>
+                                        <p>반품 진행한 주문건에 사용된 결제 방식으로 환불</p>
+                                </div>
+                            </td>
+                        </tr>
+                        <!-- /가려지는 부분 -->                        
+                        <tr class="toggle_faq">
+                            <td>공병수거</td>
+                            <td class="board_tit">
+                                <strong class="btnView">
+                                    <p>수거없이 일반적으로 배출시에는 어떻게 버리면 될까요?</p>
+                                <strong>
+                            </td>
+                        </tr>
+                        <!-- 가려지는 부분 -->
+                        <tr class="toggle_faq_none">
+                            <td colspan="2" class="board_faq">
+                                <div class="board_text">
+                                    <p>반품 신청 방법</p>
+                                        <p>마이페이지 > 주문내역조회 > 주문상세보기 > 반품신청 > 반품사유 작성 > 반품하려는 상품 선택 > 확인</p>
+                                        <p>&nbsp;</p>
+                                        <p>반품이 가능한 경우</p>
+                                        <p>- 상품을 수령하신 날로부터 30일이내</p>
+                                        <p>&nbsp;</p>
+                                        <p>반품이 불가능한 경우</p>
+                                        
+                                       <p>- 고객님의 책임이 있는 사유로 상품 등이 멸실 또는 훼손된 경우</p>
+                                        - 상품을 수령한지 30일이 지난 상태
+                                        <p>&nbsp;</p>
+                                        <p>&nbsp;</p>
+                                        * 고객님의 마음이 바뀌어 반품을 하실 경우 상품 반송(왕복) 비용은 고객님께서 부담하셔야 합니다.
+                                        (색상 및 사이즈 교환 등 포함)
+                                        <p>&nbsp;</p>
+                                        <p>환불방법</p>
+                                        <p>반품 진행한 주문건에 사용된 결제 방식으로 환불</p>
+                                </div>
+                            </td>
+                        </tr>
+                        <!-- /가려지는 부분 -->
+                        <tr class="toggle_faq">
+                            <td>공병수거</td>
+                            <td class="board_tit">
+                                <strong class="btnView">
+                                    <p>공병은 수거해갔는데 적립금은 언제 지급될까요?</p>
+                                <strong>
+                            </td>
+                        </tr>
+                        <!-- 가려지는 부분 -->
+                        <tr class="toggle_faq_none">
+                            <td colspan="2" class="board_faq">
+                                <div class="board_text">
+                                    <p>반품 신청 방법</p>
+                                        <p>마이페이지 > 주문내역조회 > 주문상세보기 > 반품신청 > 반품사유 작성 > 반품하려는 상품 선택 > 확인</p>
+                                        <p>&nbsp;</p>
+                                        <p>반품이 가능한 경우</p>
+                                        <p>- 상품을 수령하신 날로부터 30일이내</p>
+                                        <p>&nbsp;</p>
+                                        <p>반품이 불가능한 경우</p>
+                                        
+                                       <p>- 고객님의 책임이 있는 사유로 상품 등이 멸실 또는 훼손된 경우</p>
+                                        - 상품을 수령한지 30일이 지난 상태
+                                        <p>&nbsp;</p>
+                                        <p>&nbsp;</p>
+                                        * 고객님의 마음이 바뀌어 반품을 하실 경우 상품 반송(왕복) 비용은 고객님께서 부담하셔야 합니다.
+                                        (색상 및 사이즈 교환 등 포함)
+                                        <p>&nbsp;</p>
+                                        <p>환불방법</p>
+                                        <p>반품 진행한 주문건에 사용된 결제 방식으로 환불</p>
+                                </div>
+                            </td>
+                        </tr>
+                        <!-- /가려지는 부분 -->                        
+                        <tr class="toggle_faq">
+                            <td>친환경</td>
+                            <td class="board_tit">
+                                <strong class="btnView">
+                                    <p>포장도 친환경일까요?</p>
+                                <strong>
+                            </td>
+                        </tr>
+                        <!-- 가려지는 부분 -->
+                        <tr class="toggle_faq_none">
+                            <td colspan="2" class="board_faq">
+                                <div class="board_text">
+                                    <p>반품 신청 방법</p>
+                                        <p>마이페이지 > 주문내역조회 > 주문상세보기 > 반품신청 > 반품사유 작성 > 반품하려는 상품 선택 > 확인</p>
+                                        <p>&nbsp;</p>
+                                        <p>반품이 가능한 경우</p>
+                                        <p>- 상품을 수령하신 날로부터 30일이내</p>
+                                        <p>&nbsp;</p>
+                                        <p>반품이 불가능한 경우</p>
+                                        
+                                       <p>- 고객님의 책임이 있는 사유로 상품 등이 멸실 또는 훼손된 경우</p>
+                                        - 상품을 수령한지 30일이 지난 상태
+                                        <p>&nbsp;</p>
+                                        <p>&nbsp;</p>
+                                        * 고객님의 마음이 바뀌어 반품을 하실 경우 상품 반송(왕복) 비용은 고객님께서 부담하셔야 합니다.
+                                        (색상 및 사이즈 교환 등 포함)
+                                        <p>&nbsp;</p>
+                                        <p>환불방법</p>
+                                        <p>반품 진행한 주문건에 사용된 결제 방식으로 환불</p>
+                                </div>
+                            </td>
+                        </tr>
+                        <!-- /가려지는 부분 -->                       
+                        <tr class="toggle_faq">
+                            <td>생분해</td>
+                            <td class="board_tit">
+                                <strong class="btnView">
+                                    <p>용기가 친환경 원료로 만들어졌다고 하는데 어떤 원료 일까요?</p>
+                                <strong>
+                            </td>
+                        </tr>
+                        <!-- 가려지는 부분 -->
+                        <tr class="toggle_faq_none">
+                            <td colspan="2" class="board_faq">
+                                <div class="board_text">
+                                    <p>반품 신청 방법</p>
+                                        <p>마이페이지 > 주문내역조회 > 주문상세보기 > 반품신청 > 반품사유 작성 > 반품하려는 상품 선택 > 확인</p>
+                                        <p>&nbsp;</p>
+                                        <p>반품이 가능한 경우</p>
+                                        <p>- 상품을 수령하신 날로부터 30일이내</p>
+                                        <p>&nbsp;</p>
+                                        <p>반품이 불가능한 경우</p>
+                                        
+                                       <p>- 고객님의 책임이 있는 사유로 상품 등이 멸실 또는 훼손된 경우</p>
+                                        - 상품을 수령한지 30일이 지난 상태
+                                        <p>&nbsp;</p>
+                                        <p>&nbsp;</p>
+                                        * 고객님의 마음이 바뀌어 반품을 하실 경우 상품 반송(왕복) 비용은 고객님께서 부담하셔야 합니다.
+                                        (색상 및 사이즈 교환 등 포함)
+                                        <p>&nbsp;</p>
+                                        <p>환불방법</p>
+                                        <p>반품 진행한 주문건에 사용된 결제 방식으로 환불</p>
+                                </div>
+                            </td>
+                        </tr>
+                        <!-- /가려지는 부분 -->                        
+                        <tr class="toggle_faq">
+                            <td>공병수거</td>
+                            <td class="board_tit">
+                                <strong class="btnView">
+                                    <p>공병수거는 어떻게 진행하면 될까요?</p>
+                                <strong>
+                            </td>
+                        </tr>
+                        <!-- 가려지는 부분 -->
+                        <tr class="toggle_faq_none">
+                            <td colspan="2" class="board_faq">
+                                <div class="board_text">
+                                    <p>반품 신청 방법</p>
+                                        <p>마이페이지 > 주문내역조회 > 주문상세보기 > 반품신청 > 반품사유 작성 > 반품하려는 상품 선택 > 확인</p>
+                                        <p>&nbsp;</p>
+                                        <p>반품이 가능한 경우</p>
+                                        <p>- 상품을 수령하신 날로부터 30일이내</p>
+                                        <p>&nbsp;</p>
+                                        <p>반품이 불가능한 경우</p>
+                                        
+                                       <p>- 고객님의 책임이 있는 사유로 상품 등이 멸실 또는 훼손된 경우</p>
+                                        - 상품을 수령한지 30일이 지난 상태
+                                        <p>&nbsp;</p>
+                                        <p>&nbsp;</p>
+                                        * 고객님의 마음이 바뀌어 반품을 하실 경우 상품 반송(왕복) 비용은 고객님께서 부담하셔야 합니다.
+                                        (색상 및 사이즈 교환 등 포함)
+                                        <p>&nbsp;</p>
+                                        <p>환불방법</p>
+                                        <p>반품 진행한 주문건에 사용된 결제 방식으로 환불</p>
+                                </div>
+                            </td>
+                        </tr>      
+                    </tbody>
+                </table>
+            </div>   
+            <!-- /뉴제로웨이스트 -->
+            <div class="board_table_05">
+                <table class="board_list_table">
+                    <colgroup>
+                        <col style="width: 110px">
+                        <col>
+                    </colgroup>
+                    <tbody>
+                        <tr class="toggle_faq">
+                            <td>시타프로젝트</td>
+                            <td class="board_tit">
+                                <strong class="btnView">
+                                    <p>시타 프로젝트는 무엇인가요? </p>
+                                <strong>
+                            </td>
+                        </tr>
+                        <!-- 가려지는 부분 -->
+                        <tr class="toggle_faq_none">
+                            <td colspan="2" class="board_faq">
+                                <div class="board_text">
+                                   <p>
+                                        시타 프로젝트는 사람과 시장 그리고 더 나은 세상을 만드는 선한 의지를 연결하는 소셜 프로젝트입니다.<br>
+    
+                                        시타의 상품 판매 수익 일부는 세상을 변화시키는 아름다운 사람들과 단체, 따뜻한 관심과 손길이 필요한 대상에 후원 됩니다.<br>
+                                        
+                                        우리의 모든 고객은 시타를 구매하는 것만으로도 더 나은 세상을 만드는 데에 기여하게 되는 것입니다.<br>
+                                        
+                                   </p>
+                                    
+                                </div>
+                            </td>
+                        </tr>
+                        <!-- /가려지는 부분 -->
+                        <tr class="toggle_faq">
+                            <td>참여</td>
+                            <td class="board_tit">
+                                <strong class="btnView">
+                                    <p>시타 프로젝트는 어떻게 참여 하나요? </p>
+                                <strong>
+                            </td>
+                        </tr>
+                        <!-- 가려지는 부분 -->
+                        <tr class="toggle_faq_none">
+                            <td colspan="2" class="board_faq">
+                                <div class="board_text">
+                                   <p>
+                                        시타 프로젝트는 제품 구매시 자동으로 참여되어 더 나은 세상을 만드는 데 기여됩니다.
+    
+                                        구입한 제품에서 QR코드 밑에 기재된 6글자의 '시타코드'가 고객님께서 참여하신 프로젝트의 고유 코드입니다.
+                                        
+                                         
+                                        
+                                        로그인 후 시타 프로젝트 페이지에 코드를 입력해주시면,
+                                        
+                                        고객님께서 참여해주신 프로젝트의 상세한 내용을 확인 하실 수 있습니다.
+                                        
+                                         
+                                        
+                                        시타프로젝트 페이지 접속 방법
+                                        
+                                        1. 공식홈페이지: 시타 공식 홈페이지에서 시타프로젝트 탭 클릭
+                                        
+                                        2. QR코드를 통해 접속: 제품에 인쇄된 QR 코드를 휴대폰으로 스캔 후 시타프로젝트 페이지 접속
+                                   </p>
+                                    
+                                    
+                                </div>
+                            </td>
+                        </tr>
+                    </tbody>    
+                </table>
+                </div>    
+            <div class="next_btn w1200 ">
+                <ul>
+                    <li><a href="#">&lt;</a></li>
+                    <li><a href="#"><span>1</span></a></li>
+                    <li><a href="#">&gt;</a></li>
+                </ul>
+            </div>
+            <div class="faq_box2">
+                <div class="faq_btn">
+                    <p>1:1 문의</p>
+                </div>
+            </div>
+            
+        </div>
+
+        <!-- Footer -->
+        <footer>
+            <div class="first_floor">
+                <div class="footer_logo">
+                    <img src="./images/icon/logo_black.svg" alt="">
+                </div>
+                <div class="footer_info">
+                    <dl>
+                        <dt>고객센터</dt>
+                        <dd>1668-4296</dd>
+                        <dd><a href="cs@siita.com">cs@siita.com</a></dd>
+                        <dd>월 ~ 금 10 : 00 ~ 17 : 00</dd>
+                    </dl>
+                    <dl>
+                        <dt>고객서비스</dt>
+                        <dd><a href="./qna.html">문의하기</a></dd>
+                        <dd><a href="#">배송조회</a></dd>
+                        <dd><a href="#">교환&amp;반품</a></dd>
+                        <dd><a href="#">이용안내</a></dd>
+                        <dd><a href="#">이용약관</a></dd>
+                        <dd><a href="#">개인정보처리방침</a></dd>
+                    </dl>
+                    <dl>
+                        <dt>회사</dt>
+                        <dd><a href="#">소개</a></dd>
+                        <dd><a href="#">인재채용</a></dd>
+                        <dd><a href="https://www.instagram.com/siitaofficial/" target="_blank">Instagram</a></dd>
+                    </dl>
+                    <dl class="lang2">
+                        <dt class="icon_fchange">한국어
+                            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                            <i class="fa fa-angle-down" aria-hidden="true"></i></dt>
+                        <dd class="icon_fdisplay">한국어</dd>
+                        <dd>English</dd>
+                    </dl>
+                </div>
+            </div>
+            <div class="second_floor">
+                <p>
+                    &copy; 2020 시타. All right reserved
+                </p>
+                <p>
+                    (주) 시타 / CEO : KYUNGWON MOON / CPO : HYESU PARK / 사업자번호 : 326-86-02388 / 통신판매신고번호 : 2021-서울서초-3233 호 (사업자 정보 확인) / 고객센터 : 1668-4296<br>
+                    이메일 문의 : contact@siita.com / 개인정보보호책임자 : 오진우 / 주소 : 서울특별시 서초구 강남대로 311 (한화생명보험빌딩)
+                </p>
+            </div>
+        </footer>
+        <!-- /Footer -->
+    </div>
+<!-- 스와이퍼 -->
+<script src="./js/swiper-bundle.js"></script>
+<!-- 페이지 JS -->
+<script src="./js/main.js"></script>
+<script src="./js/inquiry.js"></script>
+<!-- 스크롤 -->
+</body>
+</html>

@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="chanyangkim">
+    <meta name="description" content="Portpolio, Float, Siita Template">
+    <title>카카오계정 - Chrome</title>
+    <link rel="stylesheet" href="./css/font.css">
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="shortcut icon" href="./images/favicon/favcon.png">
+    <link rel="apple-touch-icon=precomposed" href="./images/favicon/favcon.png">
+    <link rel="stylesheet" href="./css/notosans_kr_CDN.css">
+    <!-- 페이지css -->
+    <!-- <link rel="stylesheet" href="./css/system_font.css"> -->
+    <link rel="stylesheet" href="./css/account.kakao.com.css">
+    <!-- js 플러그인 파일 -->
+    <script src="./js/jquery-1.12.4.min.js"></script>
+    <script src="./js/jquery-3.3.1.min.js"></script>
+    <!-- 접두어 프리패스 -->
+    <script src="./js/prefixfree.min.js"></script> 
+    <!-- 페이지js -->
+    <script src="./js/account.kakao.com.js"></script>
+</head>
+<body onload="window.resizeTo(634,566)">
+    <div id="wrap">
+        <!-- Form -->
+        <form action="#" method="post">
+            <fieldset>
+                <legend>kakao</legend>
+                <ul>
+                    <li>
+                        <label for="kakao_id"></label>
+                        <input type="text" id="kakao_id" required placeholder="카카오메일 아이디, 이메일, 전화번호">
+                    </li>
+                    <li>
+                        <label for="kakao_pw"></label>
+                        <input type="password" id="kakao_pw" required placeholder="비밀번호">
+                    </li>
+                    <li class="flex">
+                        <label for="status">
+                        <input type="checkbox" id="status" value="login"> 로그인상태유지
+                        </label>
+                    </li>
+                    <li>
+                        <button class="log_in_btn">로그인</button>
+                    </li>
+                    <li class="or">
+                        또는
+                    </li>
+                    <li>
+                        <button class="qr_btn">QR코드 로그인</button>
+                    </li>
+                </ul>
+            </fieldset>
+        </form>
+        <!-- /Form -->
+        <!-- Section -->
+        <section class="cf">
+            <button class="join"><a href="./sita_join.html">회원가입</a></button>        
+            <div class="join_right">
+                <button class="account"><a href="#">계정&nbsp;찾기&nbsp;</a></button>
+                <button class="pw"><a href="#">&nbsp;비밀번호&nbsp;찾기</a></button>
+            </div>
+        </section>
+        <!-- /Section -->
+    </div>
+</body>
+</html>

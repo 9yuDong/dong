@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>세상에서 가장 가벼운 화장품, 시타</title>
+    <link rel="shortcut icon" href="./images/favicon/favcon.png">
+    <link rel="apple-touch-icon=precomposed" href="./images/favicon/favcon.png">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/font.css">
+    <link rel="stylesheet" href="./css/main.css">
+    <!-- 스와이퍼 CSS -->
+    <link rel="stylesheet" href="./css/swiper-bundle.css">
+    <!-- JS 플러그인 파일 -->
+    <script src="./js/jquery-1.12.4.min.js"></script>
+    <script src="./js/jquery-3.3.1.min.js"></script>
+    <script src="./js/prefixfree.min.js"></script>
+    <script src="./js/jquery.scrollTo.min.js"></script>
+    <script src="./js/odometer.min.js"></script>
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <link rel="stylesheet" href="//github.hubspot.com/odometer/themes/odometer-theme-default.css" />
+    <script src="//github.hubspot.com/odometer/odometer.js"></script>
+    <!-- 상품페이지 CSS -->
+    <!-- <link rel="stylesheet" href="./css/product_gnb.css"> -->
+    <link rel="stylesheet" href="./css/intro.css">
+</head>
+<body>
+    <!-- #wrap 밖에 위치 -->
+    <!-- Aside SNB -->
+    <aside>
+        <div class="top_sub1">
+            <p><a href="./product.html">50,000원 이상 구매 시 무료배송</a></p>
+        </div>
+        <div class="top_sub2">
+            <p><a href="./join.html">회원가입 약관 모두 동의 시 적립금 3,000원 지급</a></p>
+        </div>
+    </aside>
+    <!-- /Aside SNB -->
+    <!-- #wrap 밖에 위치 -->
+    
+    
+    <!-- 공통 Header -->
+    <div class="fix_top">
+        <header>
+            <!-- LOGO + GNB Menu -->
+            <div class="menu_wrap">
+                <div class="menu">
+                    <nav>
+                        <ul>
+                            <li><a href="./intro.html">소개</a></li>
+                            <li><a href="./product.html">제품</a></li>
+                            <li class="innovate"><a href="#">혁신</a></li>
+                            <li class="involve"><a href="#">참여</a></li>
+                        </ul>
+                    </nav>
+                </div>
+                <div class="logo">
+                    <a href="./index.html"><img src="./images/icon/logo_white.svg" alt="로고화이트"></a>
+                </div>
+                <div class="menu_aside">
+                    <a href="./basket.html"><img src="./images/icon/bucket_white.svg" alt="장바구니화이트"></a>
+                    <a href="./login.html"><img src="./images/icon/person_white.svg" alt="프로필화이트"></a>
+                    <div class="lang">
+                        <ul>
+                            <li class="icon_change">한국어&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<i class="fa fa-angle-down" aria-hidden="true"></i></li>
+                            <li class="icon_display">한국어</li>
+                            <li>English</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <!-- /LOGO + GNB Menu -->
+            <div class="menu_hover">
+                <div class="dl_wrap">
+                    <div class="tab_innovate">
+                        <dl>
+                            <dt>혁신</dt>
+                            <dd><a href="./innovation.html">여정</a></dd>
+                            <dd><a href="./plastic.html">플라스틱 분해</a></dd>
+                            <dd><a href="#">일회용 컵</a></dd>
+                        </dl>
+                    </div>
+                    <div class="tab_involve">
+                        <dl>
+                            <dt>참여</dt>
+                            <dd><a href="#">시타 프로젝트</a></dd>
+                            <dd><a href="#">참여</a></dd>
+                        </dl>
+                    </div>
+                </div>
+            </div>
+        </header>
+    </div>
+    <!-- /공통 Header -->
+    <div id="wrap">
+
+       <!-- 상단 고정 소개페이지 -->
+       <section class="sec_01">
+        <div class="w1200">
+            <h2>“죽지 않는 지구는 <br>
+                우리가 사업을 하는 이유입니다.”
+            </h2>
+            <p>
+                시타의 미션은 세상을 새로운 제로 웨이스트의 시대로 전환하여 우리 모두의 고향을 구하는 것입니다. <br>
+                우리는 고객과 함께 세상에 그 어떤 것도 다음 세대에 남기지 않을 수 있다는 증거를 만들고 있습니다.
+            </p>
+            <button>
+                더 알아보기 >
+                <!-- <i class="fa fa-angle-right" aria-hidden="true"></i> -->
+            </button>
+        </div>
+    </section>
+    <nav class="snb w1200">
+        <ul id="snb">
+            <li class="active"><a href="#" onclick="sec_menu(0);return false;">플라스틱&nbsp;분해</a></li>
+            <li><a href="#" onclick="sec_menu(1);return false;">스킨&nbsp;케어</a></li>
+            <li><a href="#" onclick="sec_menu(2);return false;">비건</a></li>
+            <li><a href="#" onclick="sec_menu(3);return false;">친환경&nbsp;패키지</a></li>
+            <li><a href="#" onclick="sec_menu(4);return false;">시타&nbsp;프로젝트</a></li>
+        </ul>
+    </nav>
+    <!-- /상단 고정 소개페이지 -->
+
+    <!-- Section Menu_1 플라스틱 분해 -->
+    <section class="sec_02 sec_all tab_content_00">
+        <img src="./images/intro_img/intro_img02.png" alt="플라스틱분해">
+        <div class="w1200">
+            <h3>플라스틱 분해 <br>
+                <a href="./plastic.html">
+                    플라스틱 분해 알아보기 >
+                    <!-- <i class="fa fa-angle-right" aria-hidden="true"></i> -->
+                </a>
+            </h3>
+            <p>
+                시타는 세계 최초로 플라스틱을 분해한 제로 웨이스트 기업입니다. 그리고 현재까지도 플라스틱 제품을 분해 <br>
+                하는 세계 유일의 기업이기도 합니다. <br>
+                시타의 모든 제품은 완전히 분해되어 자연으로 돌아갑니다.
+            </p>
+        </div>
+    </section>
+    <!-- /Section Menu_1 플라스틱 분해 -->
+
+    <!-- Section Menu_2 스킨케어 -->
+    <section class="sec_03 sec_all tab_content_01">
+        <img src="./images/intro_img/intro_img03.png" alt="스킨케어이미지">
+        <div class="w1200">
+            <h3>스킨 케어 <br> </h3>
+            <p>
+                시타의 모든 구성원은 탁월한 피부 과학의 신봉자이며 혁신가입니다. <br>
+                시타의 모든 퍼스널 케어 상품은 우리 삶의 질을 극적으로 향상시키고 있습니다. <br>
+            </p>
+        </div>
+    </section>
+    <!-- /Section Menu2 스킨케어 -->
+
+    <!-- Section Menu_3 비건 -->
+    <section class="sec_04 sec_all tab_content_02">
+        <img src="./images/intro_img/intro_img04.png" alt="비건이미지">
+        <div class="w1200">
+            <h3>비건 <br> </h3>
+            <p>
+                시타가 그리는 더 나은 세상에서는 사람과 환경, 동물 모두가 행복해야 합니다. <br>
+                시타의 모든 제품은 그 어떤 동물실험도 거치지 않아 우리의 더 나은 일상을 위해 <br>
+                고통받는 이웃이 없도록 합니다.
+            </p>
+        </div>
+    </section>
+    <!-- /Section Menu_3 비건 -->
+
+    <!-- Section Menu_4 친환경패키지 -->
+    <section class="sec_05 sec_all tab_content_03">
+        <img src="./images/intro_img/intro_img05.png" alt="친환경패키지이미지">
+        <div class="w1200">
+            <h3>친환경 패키지 <br> </h3>
+            <p>
+                시타는 플라스틱 뿐만 아니라 우리 일상 속 모든 낭비를 최소화 합니다. <br>
+                시타를 구성하는 박스와 테이프, 완충제 모두 재활용 가능한 종이로 이루어져 있습니다.
+            </p>
+        </div>
+    </section>
+    <!-- /Section Menu_4 친환경패키지 -->
+
+    <!-- Section Menu_5 시타 프로젝트 -->
+    <section class="sec_06 tab_content_04">
+        <div class="sec_pj w1200">
+            <h3>시타 프로젝트 <br> </h3>
+            <p>
+                시타는 세상의 선한 의지와 고객, 시장과 사회의 경계를 무너뜨리고 있습니다. <br>
+                우리의 모든 고객은 시타를 구매하는 것만으로도 세상을 변화시키는 아름다운 사람들과 단체, <br>
+                그리고 따뜻한 손길이 필요한 대상을 후원하게 됩니다. 시타 넘버를 통해 내가 사회에 기여한 <br>
+                내용을 직접 확인할 수 있습니다. 시타 프로젝트의 목표는 우리 모두의 일상이 소셜 프로젝트 <br>
+                그 자체가 되도록 하는 것입니다.
+            </p>
+            <button>
+                시타 프로젝트 알아보기 >
+                <!-- <i class="fa fa-angle-right" aria-hidden="true"></i> -->
+            </button>
+        </div>
+        <div class="sec_num w1200">
+            <ul>
+                <li>
+                    <span>300+</span><br>
+                    취약계층&nbsp;아이들
+                </li>
+                <li>
+                    <span>80+</span><br>
+                    장애인&nbsp;종사자
+                </li>
+                <li><br>
+                    <span>1200</span><br>
+                    식료품
+                </li>
+            </ul>
+        </div>
+    </section>
+    <!-- /Section Menu_5 시타 프로젝트 -->
+
+        <!-- Footer -->
+        <footer>
+            <div class="first_floor">
+                <div class="footer_logo">
+                    <img src="./images/icon/logo_black.svg" alt="">
+                </div>
+                <div class="footer_info">
+                    <dl>
+                        <dt>고객센터</dt>
+                        <dd>1668-4296</dd>
+                        <dd><a href="cs@siita.com">cs@siita.com</a></dd>
+                        <dd>월 ~ 금 10 : 00 ~ 17 : 00</dd>
+                    </dl>
+                    <dl>
+                        <dt>고객서비스</dt>
+                        <dd><a href="./qna.html">문의하기</a></dd>
+                        <dd><a href="#">배송조회</a></dd>
+                        <dd><a href="#">교환&amp;반품</a></dd>
+                        <dd><a href="#">이용안내</a></dd>
+                        <dd><a href="#">이용약관</a></dd>
+                        <dd><a href="#">개인정보처리방침</a></dd>
+                    </dl>
+                    <dl>
+                        <dt>회사</dt>
+                        <dd><a href="#">소개</a></dd>
+                        <dd><a href="#">인재채용</a></dd>
+                        <dd><a href="https://www.instagram.com/siitaofficial/" target="_blank">Instagram</a></dd>
+                    </dl>
+                    <dl class="lang2">
+                        <dt class="icon_fchange">한국어
+                            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                            <i class="fa fa-angle-down" aria-hidden="true"></i></dt>
+                        <dd class="icon_fdisplay">한국어</dd>
+                        <dd>English</dd>
+                    </dl>
+                </div>
+            </div>
+            <div class="second_floor">
+                <p>
+                    &copy; 2020 시타. All right reserved
+                </p>
+                <p>
+                    (주) 시타 / CEO : KYUNGWON MOON / CPO : HYESU PARK / 사업자번호 : 326-86-02388 / 통신판매신고번호 : 2021-서울서초-3233 호 (사업자 정보 확인) / 고객센터 : 1668-4296<br>
+                    이메일 문의 : contact@siita.com / 개인정보보호책임자 : 오진우 / 주소 : 서울특별시 서초구 강남대로 311 (한화생명보험빌딩)
+                </p>
+            </div>
+        </footer>
+        <!-- /Footer -->
+    </div>
+<!-- 스와이퍼 -->
+<script src="./js/swiper-bundle.js"></script>
+<!-- 페이지 JS -->
+<script src="./js/main.js"></script>
+<script src="./js/intro.js"></script>
+<!-- 스크롤 -->
+</body>
+</html>
