@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mobile Portfolio iframe</title>
+    <link rel="stylesheet" href="./css/reset.css">
+    <style>
+        html,body {
+            background-color: #195730;
+        }
+        #frame_wrap {
+            margin: 2.5px auto;
+            text-align: center;
+        }
+        #frame_wrap {
+            width: 488px;
+            height: 901px;
+            background-image: url('./images/mockup.png');
+            background-repeat: no-repeat;
+            background-size: 100%;
+            background-position: center;
+        }
+        .iframe_box {
+            padding-top: 132px;
+            padding-left: 70px;
+        }
+        iframe {
+            display: block;
+            border-radius: 0 0 34px 34px;
+        }
+    </style>
+</head>
+<body>
+    <div id="frame_wrap">
+        <div class="iframe_box">
+            <iframe src="parasite.html" frameborder="0" width="368" height="722"></iframe>
+        </div>
+    </div>
+</body>
+</html>
