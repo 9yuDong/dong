@@ -1,0 +1,165 @@
+@charset "utf-8";
+/* Viewport 가변단위 */
+/* 내 마음속의 기준값 */
+/* 1920(vw 내 마음속의 너비 기준값) x 936(vh 내 마음속의 높이 기준값) */
+*{
+    background-color: transparent !important;
+}
+.maxw1440 {
+    max-width: 1440px;
+    /* (1440/1920)*100 = 75 */
+    max-width: 75vw;
+    margin: 0 auto;
+}
+body, html {
+    font-size: 16px;
+    /* (16/936)*100 = 1.7094017094017095 */
+    font-size: 1.7094vh;
+    font-family: 'Noto Sans KR',sans-serif;
+}
+    
+#wrap {
+    width: 100vw;
+    height: 100vh;
+    /* 포지션 */
+    position: fixed;
+    left: 0;
+    top: 0;
+    z-index: 1;
+}
+/* Video Background */
+.video_wrapper {
+    width: 100vw;
+    height: 100vh;
+    /* 포지션 */
+    position: fixed;
+    left: 0;
+    top: 0;
+    z-index: -1;
+}
+.video_wrapper video {
+    width: 100vw;
+    height: 100vh;
+    object-fit: fill;
+}
+
+/* Video Control Button */
+#car_btn {
+    /* 포지션 */
+    position: fixed;
+    left: 48px;
+    /* (48/1920)*100 = 2.5 */
+    left: 2.5vw;
+    bottom: 56px;
+    /* (56/936)*100 = 5.982905982905983 */
+    bottom: 5.982905982905983vh;
+    z-index: 100;
+}
+#car_btn i {
+    font-size: 24px;
+    /* (24/936)*100 = 2.564102564102564 */
+    font-size: 2.564102564102564vh;
+    color: #020217;
+    cursor: pointer;
+}
+#car_sound {
+    position: fixed;
+    left: 96px;
+    /* (96/1920)*100 = 5 */
+    left: 5vw;
+    bottom: 56px;
+    /* (56/936)*100 = 5.982905982905983 */
+    bottom: 5.982905982905983vh;
+    z-index: 100;
+}
+#car_sound i {
+    font-size: 24px;
+    /* (24/936)*100 = 2.564102564102564 */
+    font-size: 2.564102564102564vh;
+    color: #020217;
+    cursor: pointer;
+}
+
+/* Image Text */
+.video_text {
+    position: fixed;
+    left: 48px;
+    /* (48/1920)*100 = 2.5 */
+    left: 2.5vw;
+    bottom: 100px;
+    /* (100/936)*100 = 10.683760683760683 */
+    bottom: 10vh;
+    z-index: 200;
+}
+.video_text h2 {
+    font-size: 60px;
+    /* (45/936)*100 = 4.807692307692308 */
+    font-size: 4.807vh;
+    font-weight: 700;
+    line-height: 1;
+    color: #fff;
+    letter-spacing: -2px;
+}
+.video_text p {
+    font-size: 21px;
+    /* (21/936)*100 = 2.2435897435897436 */
+    font-size: 2.2vh;
+    color: #fff;
+    font-weight: 300;
+    margin-top: 16px;
+    /* (16/936)*100 = 1.7094017094017095 */
+    margin-top: 1.7vh;
+    text-indent: 0.2em;
+}
+
+/* Header */
+.header {
+    color: #fff;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    padding-top: 30px;
+    padding-top: 3.8vh;
+    text-align: center;
+}
+
+.header h1 {
+    width: 160px;
+    font-size: 65px;
+    font-weight: 900;
+    width: 8vw;
+}
+.header .gnb_wrap {
+    font-size: 20px;
+    font-size: 2.1vh;
+    font-weight: 500;
+}
+.header .gnb {
+    display: flex;
+}
+.header .gnb li {
+    padding: 0 40px;
+    /* (40/1920)*100 = 2.083333333333333 */
+    padding: 0 2.083333333333333vw;
+}
+.header .sub_wrap {
+    font-size: 14px;
+    font-size: 1.5vh;
+}
+.header .snb {
+    display: flex;
+}
+.header .snb li {
+    padding: 0 8px;
+}
+.header .snb li:last-child {
+    border: 1px solid #fff;
+    font-size: 12px;
+    /* (12/936)*100 = 1.282051282051282 */
+    font-size: 1.282051282051282vhs;
+    padding: 4px 12px;
+    margin-top: -4px;
+}
+
+
+
