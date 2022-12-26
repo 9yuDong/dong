@@ -1,0 +1,559 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="author" content="mcssam" />
+  <meta name="description" content="Portfolio, Flex, Caxa UI" />
+  <title>LG전자</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" />
+  <link rel="shortcut icon" href="./images/lg.png"/>
+  <link rel="apple-touch-icon=precomposed" href="./images/lg.png" />
+  <link rel="stylesheet" href="./css/reset.css" />
+  <link rel="stylesheet" href="./css/notosans_kr_CDN.css" />
+  <!-- 페이지 CSS -->
+  <link rel="stylesheet" href="./css/lg.css" />
+  <link rel="stylesheet" href="./css/jquery.bxslider.css">
+  <!-- JS 플러그인 파일 -->
+  <script src="./js/jquery-1.12.4.min.js"></script>
+  <script src="./js/jquery-3.3.1.min.js"></script>
+  <script src="./js/prefixfree.min.js"></script>
+
+  <script src="./js/jquery.bxslider.js"></script>
+  <!-- 페이지 JS -->
+
+
+</head>
+
+<body>
+  <div id="wrap">
+    <!-- Aside SNB -->
+    <aside>
+      <div class="top_sub w1300">
+        <p>로그인하면 확인되는 차별화된 회원가!</p>
+        <p>
+        <div class="close1"></div>
+
+        </p>
+      </div>
+    </aside>
+    <!-- /Aside SNB -->
+    <!-- Header -->
+    <header>
+      <div class="lnb_all">
+        <!-- Logo Area + LNB Menu -->
+        <div class="root_lnb w1300">
+          <!-- Logo Area -->
+          <h1 class="top_logo">
+            <img src="./images/logo.png" width="85" height="35" alt="카사로고" />
+          </h1>
+          <!-- /Logo Area -->
+          <!-- LNB Menu -->
+          <nav class="local">
+            <ul class="lnb">
+              <li>
+                <a href="#"><img src="./images/search.png" alt="장바구니아이콘" width="20" height="20" /></a>
+              </li>
+              <div class="login_box">
+                <li>
+                  <a href="#"><img src="./images/login.png" alt="로그인" width="20" height="20" /></a>
+                  <div class="login_menu">
+                    <ul>
+                      <li><a href="">로그인</a></li>
+                      <li><a href="">회원가입</a></li>
+                      <li><a href="">주문배송/ 조회</a></li>
+                      <li><a href="">멤버심 가입</a></li>
+                      <li><a href="">보유제품 가입</a></li>
+                    </ul>
+                  </div>
+              </div>
+              </li>
+              <li>
+                <a href="#"><img src="./images/cart.png" alt="장바구니아이콘" width="20" height="20" /></a>
+              </li>
+            </ul>
+          </nav>
+          <!-- /LNB Menu -->
+        </div>
+        <!-- /Logo Area + LNB Menu -->
+      </div>
+
+      <!-- GNB Menu -->
+      <div class="gnb_all">
+        <div class="w1300">
+          <nav class="global">
+            <h2>
+              <a href="#"><img src="./images/menu.png" width="58" height="54" alt="햄버거메뉴" /></a>
+            </h2>
+            <ul class="gnb">
+              <li class="gnb_box on" onmouseenter="tab_menu(0);"><a href="#">제품/소모품</a></li>
+              <li class="gnb_box" onmouseenter="tab_menu1(1);"><a href="#">고객지원</a></li>
+              <li class="gnb_box" onmouseenter="tab_menu(2);"><a href="#">렌탈/캐어</a></li>
+              <li class="gnb_box" onmouseenter="tab_menu(3);"><a href="#">이벤트/멤버십</a></li>
+              <li class="gnb_box" onmouseenter="tab_menu(4);"><a href="#">스토리</a></li>
+              <li class="gnb_box" onmouseenter="tab_menu(5);"><a href="#">베스트샵</a></li>
+            </ul>
+            <ul class="snb">
+              <li class="no_ml"><a href="#">이벤트</a></li>
+              <li><a href="#">미디어</a></li>
+              <li><a href="#">기업소개</a></li>
+            </ul>
+          </nav>
+          <!-- 1 뎁스 메뉴 -->
+          <div class="menu_box_all">
+            <div class="menu_box00">
+              <div class="gnb_menu">
+                <ul class="sub_gnb">
+                  <li class="sub_box on " onmouseenter="tab_sub(0);"><a href="#">TV/AV</a>
+                  <li class="sub_box"><a href="#" onmouseenter="tab_sub(1);">PC/모니터</a></li>
+                  <li class="sub_box"><a href="#" onmouseenter="tab_sub(2);">주방가전</a></li>
+                  <li class="sub_box"><a href="#" onmouseenter="tab_sub(3);">생활가전</a></li>
+                  <li class="sub_box"><a href="#" onmouseenter="tab_sub(4);">에어컨/에어케어</a></li>
+                </ul>
+                <!-- TV/AV -->
+             <div class="sub_menu_all">
+               
+                    <div class="sub_menu00">
+                      <div class="sub_sub">
+                        <ul class="TV_UL">
+                          <h2>TV</h2>
+                          <li><a href="#">올레드 TV</a></li>
+                          <li><a href="#">QNED TV</a></li>
+                          <li><a href="#">나노셀 TV</a></li>
+                          <li><a href="#">울트라 HD TV</a></li>
+                          <li><a href="#">일반 LED TV</a></li>
+                          <li><a href="#">라이프스타일스크린</a></li>
+    
+                          <h2>프로젝터</h2>
+                          <li><a href="#">시내빔</a></li>
+                          <li><a href="#">프로빔(상업용)</a></li>
+                        </ul>
+                        <ul class="av_UL">
+                          <h2>AV</h2>
+                          <li><a href="#">블루투스 이어폰(돈프리)</a></li>
+                          <li><a href="#">무선 스피커</a></li>
+                          <li><a href="#">울트라기어 게이밍스피커</a></li>
+                          <li><a href="#">사운드바</a></li>
+                          <li><a href="#">오디어/플레이어</a></li>
+                          <h2>상업용 디스플레이 </h2>
+                          <li><a href="#">울트라 사이니지</a></li>
+                          <li><a href="#">디지털 사이니지</a></li>
+                          <li><a href="#">LED 사이니지</a></li>
+                          <li><a href="#">원퀵</a></li>
+                        </ul>
+                      </div>
+    
+                    </div>
+                    <!-- PC/모니터 -->
+                    <div class="sub_menu01">
+                      <div class="sub_sub">
+                        <ul class="TV_UL">
+                          <h2>노트북</h2>
+                          <li><a href="#">그램</a></li>
+                          <li><a href="#">울트라 기어</a></li>
+                          <li><a href="#">울트라 PC</a></li>
+                          <li><a href="#">태블릿</a></li>
+                          <li><a href="#">Windows 11</a></li>
+                          <h2>일체형 데스크톱</h2>
+    
+                        </ul>
+                        <ul class="av_UL">
+                          <h2>모니터</h2>
+                          <li><a href="#">울트라기어 게이밍모니터</a></li>
+                          <li><a href="#">울트라와이드 모니터</a></li>
+                          <li><a href="#">울트라HD 모니터</a></li>
+                          <li><a href="#">PC모니터</a></li>
+                          <li><a href="#">스마트TV 모니터/a</li>
+                          <li><a href="#">IPTV 모니터</li>
+                          <li><a href="#">클라우드 모니터</li>
+                          <h2>울트라기어</h2>
+    
+                        </ul>
+                      </div>
+    
+                    </div>
+                    <!-- 주방가전 -->
+                    <div class="sub_menu02">
+                      <div class="sub_sub">
+                        <ul class="TV_UL">
+                          <h2>냉장고</h2>
+                          <li><a href="#">LG SIGNATURE</a></li>
+                          <li><a href="#">무드업</a></li>
+                          <li><a href="#">정수기형</a></li>
+                          <li><a href="#">상냉장/하냉동</a></li>
+                          <li><a href="#">양문형</a></li>
+                          <li><a href="#">일반형</a></li>
+                          <li><a href="#">비즈니스</a></li>
+    
+                          <h2>컨버터블 패키지</h2>
+                          <h2>김치냉장고</h2>
+                          <li><a href="#">무드업</a></li>
+                          <li><a href="#">스탠드형</a></li>
+                          <li><a href="#">뚜껑식형</a></li>
+                          <li><a href="#">사운드바</a></li>
+                          <li><a href="#">와인셀러</a></li>
+                        </ul>
+                        <ul class="av_UL">
+                          <h2>전기레인지</h2>
+                          <li><a href="#">인덕션</a></li>
+                          <li><a href="#">하이브리드</a></li>
+                          <li><a href="#">하이라이트</a></li>
+    
+                          <h2>식기세척기 </h2>
+                          <h2>광파오븐/전자레인지 </h2>
+                          <li><a href="#">정수기</a></li>
+                          <li><a href="#">냉온정수기</a></li>
+                          <li><a href="#">냉정수기</a></li>
+                          <li><a href="#">정수전용</a></li>
+                        </ul>
+                      </div>
+                      <!-- 생활가전 -->
+                    </div>
+                 
+                <!-- 생활가전 -->
+                  <div class="sub_menu03">
+                    <div class="sub_sub">
+                      <ul class="TV_UL">
+                        <h2>워시타워</h2>
+                        <h2>세탁기</h2>
+                        <li><a href="#">LG SIGNATURE</a></li>
+                        <li><a href="#">트윈워시</a></li>
+                        <li><a href="#">트롬</a></li>
+                        <li><a href="#">통돌이</a></li>
+                        <li><a href="#">미니세탁기</a></li>
+                        <h2>의류건조기</h2>
+                      </ul>
+                      <ul class="av_UL">
+                        <h2>스타일러</h2>
+                        <h2>청소기</h2>
+                        <li><a href="#">코드제로 A9S</a></li>
+                        <li><a href="#">코드제로 R9</a></li>
+                        <li><a href="#">코드제로 M9</a></li>
+                        <li><a href="#">코드제로 R5</a></li>
+                        <li><a href="#">로보킹</a></li>
+                        <li><a href="#">사이킹</a></li>
+                        <li><a href="#">잔디깎이로봇</a></li>
+                        <h2>상업용 디스플레이 </h2>
+                        <li><a href="#">울트라 사이니지</a></li>
+                        <li><a href="#">디지털 사이니지</a></li>
+                        <li><a href="#">LED 사이니지</a></li>
+                        <li><a href="#">원퀵</a></li>
+                      </ul>
+                      <ul class="av_UL">
+                        <h2>식물가전</h2>
+                        <h2>안마의자</h2>
+  
+                      </ul>
+                    </div>
+  
+                  </div>
+  
+                  <div class="sub_menu04">
+                    <div class="sub_sub">
+                      <ul class="TV_UL">
+                        <h2>TV</h2>
+                        <li><a href="#">올레드 TV</a></li>
+                        <li><a href="#">QNED TV</a></li>
+                        <li><a href="#">나노셀 TV</a></li>
+                        <li><a href="#">울트라 HD TV</a></li>
+                        <li><a href="#">일반 LED TV</a></li>
+                        <li><a href="#">라이프스타일스크린</a></li>
+  
+                        <h2>프로젝터</h2>
+                        <li><a href="#">시내빔</a></li>
+                        <li><a href="#">프로빔(상업용)</a></li>
+                      </ul>
+                      <ul class="av_UL">
+                        <h2>AV</h2>
+                        <li><a href="#">블루투스 이어폰(돈프리)</a></li>
+                        <li><a href="#">무선 스피커</a></li>
+                        <li><a href="#">울트라기어 게이밍스피커</a></li>
+                        <li><a href="#">사운드바</a></li>
+                        <li><a href="#">오디어/플레이어</a></li>
+                        <h2>상업용 디스플레이 </h2>
+                        <li><a href="#">울트라 사이니지</a></li>
+                        <li><a href="#">디지털 사이니지</a></li>
+                        <li><a href="#">LED 사이니지</a></li>
+                        <li><a href="#">원퀵</a></li>
+                      </ul>
+                    </div>
+  
+                  </div>
+              
+             </div>
+       
+            <!-- 제품 셀프 지원 -->
+            <div class="menu_box01">
+              <div class="gnb_menu">
+
+                <div class="sub_sub">
+                  <ul class="TV_UL">
+                    <h2>제품 셀프 지원</h2>
+                    <li><a href="#">제품 문제 해결</a></li>
+                    <li><a href="#">동영상 가이드</a></li>
+                    <li><a href="#">사용 설명서</a></li>
+                    <li><a href="#">울트라 HD TV</a></li>
+                    <li><a href="#">일반 LED TV</a></li>
+                    <li><a href="#">라이프스타일스크린</a></li>
+
+                    <h2>프로젝터</h2>
+                    <li><a href="#">시내빔</a></li>
+                    <li><a href="#">프로빔(상업용)</a></li>
+                  </ul>
+                  <ul class="av_UL">
+                    <h2>AV</h2>
+                    <li><a href="#">블루투스 이어폰(돈프리)</a></li>
+                    <li><a href="#">무선 스피커</a></li>
+                    <li><a href="#">울트라기어 게이밍스피커</a></li>
+                    <li><a href="#">사운드바</a></li>
+                    <li><a href="#">오디어/플레이어</a></li>
+                    <h2>상업용 디스플레이 </h2>
+                    <li><a href="#">울트라 사이니지</a></li>
+                    <li><a href="#">디지털 사이니지</a></li>
+                    <li><a href="#">LED 사이니지</a></li>
+                    <li><a href="#">원퀵</a></li>
+                  </ul>
+                </div>
+
+              </div>
+            </div>
+              <!--렌탈케어  -->
+            <div class="menu_box02">
+              <div class="gnb_menu">
+
+                <div class="sub_sub">
+                  <ul class="TV_UL">
+                    <h2>제품 셀프 지원</h2>
+                    <li><a href="#">제품 문제 해결</a></li>
+                    <li><a href="#">동영상 가이드</a></li>
+                    <li><a href="#">사용 설명서</a></li>
+                    <li><a href="#">울트라 HD TV</a></li>
+                    <li><a href="#">일반 LED TV</a></li>
+                    <li><a href="#">라이프스타일스크린</a></li>
+
+                    <h2>프로젝터</h2>
+                    <li><a href="#">시내빔</a></li>
+                    <li><a href="#">프로빔(상업용)</a></li>
+                  </ul>
+                  <ul class="av_UL">
+                    <h2>AV</h2>
+                    <li><a href="#">블루투스 이어폰(돈프리)</a></li>
+                    <li><a href="#">무선 스피커</a></li>
+                    <li><a href="#">울트라기어 게이밍스피커</a></li>
+                    <li><a href="#">사운드바</a></li>
+                    <li><a href="#">오디어/플레이어</a></li>
+                    <h2>상업용 디스플레이 </h2>
+                    <li><a href="#">울트라 사이니지</a></li>
+                    <li><a href="#">디지털 사이니지</a></li>
+                    <li><a href="#">LED 사이니지</a></li>
+                    <li><a href="#">원퀵</a></li>
+                  </ul>
+                </div>
+
+              </div>
+            </div>
+          </div>
+          <!--TV-->
+          <!-- /GNB Menu -->
+    </header>
+    <!-- /Header -->
+
+    <!-- Slider -->
+    <article>
+      <!-- BxSlider 이미지 -->
+      <ul class="slide_gallery">
+        <li><img src="./images/slide1.jpg" alt="슬라이드01"></li>
+        <li><img src="./images/slide2.jpg" alt="슬라이드02"></li>
+        <li><img src="./images/slide4.jpg" alt="슬라이드03"></li>
+        <li><img src="./images/slide5.jpg" alt="슬라이드03"></li>
+        <li><img src="./images/slide6.jpg" alt="슬라이드03"></li>
+      </ul>
+
+    </article>
+    <!-- /Slider -->
+
+    <!-- Contents -->
+    <main role="main">
+      <!-- Section 01 -->
+      <section class="md_pick w1300">
+        <h2>
+          <iframe width="620" height="480" src="https://www.youtube.com/embed/oUzRG2Mq9f0" title="YouTube video player"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen></iframe>
+        </h2>
+        <h3>
+          <p class="title">LG 그램 : 강력한 퍼포먼스도 그램답게 가볍게</p>
+          <div class="md_pick_area">
+            <ul>
+              <li>
+                <a href="#"><img src="./images/boximg1.jpg" width="300" height="330" alt="엠디픽제품01" /></a>
+              </li>
+              <li>
+                <a href="#"><img src="./images/boximg2.jpg" width="300" height="330" alt="엠디픽제품01" /></a>
+              </li>
+              <li class="no_mr">
+                <a href="#"><img src="./images/boximg3.jpg" width="300" height="330" alt="엠디픽제품01" /></a>
+              </li>
+            </ul>
+          </div>
+
+        </h3>
+      </section>
+      <!-- /Section 01 -->
+      <!-- Section 02 -->
+      <!-- 유튜브  -->
+      <section class="real_title">
+        <h2 class="real_time w1300">
+          <ul>
+            <li>
+              <img src="images/YouTube_logo_02.png" alt="리얼타임타이틀" width="180" height="80" />
+            </li>
+            <li onclick="tab_img(0)"><a>LG 베스트 케어</a></li>
+            <li onclick="tab_img(1)"><a>가전,꿈꾸던 삶이 되다 편</a></li>
+            <li onclick="tab_img(2);"><a>LG ThinQ</a></li>
+            <li><a href="https://www.youtube.com/@LGElectronicsKorea">유튜브 공식 채널가기</a></li>
+          </ul>
+          <div class="tab_content_00">
+            <iframe width="600" height="315" src="https://www.youtube.com/embed/Nb_18cG2wRI"
+              title="YouTube video player" frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              allowfullscreen></iframe>
+          </div>
+          <div class="tab_content_01">
+            <iframe width="600" height="315" src="https://www.youtube.com/embed/I8NoLPbxAGg"
+              title="YouTube video player" frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              allowfullscreen></iframe>
+          </div>
+
+          <div class="tab_content_02">
+            <iframe width="600" height="315" src="https://www.youtube.com/embed/ubkSSV9ymIE"
+              title="YouTube video player" frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              allowfullscreen></iframe>
+          </div>
+
+        </h2>
+      </section>
+      <!-- /Section 02 -->
+      <!-- Section 03 -->
+      <section class="caxa w1300">
+        <h2>
+          최근 가장 많이 팔린 상품
+        </h2>
+        <div class="caxa_sns">
+          <ul>
+            <li>
+              <a href="#"><img src="images/refrigerator01.jpg" width="185" height="185" alt="SNS 제품01" /></a>
+            </li>
+            <li>
+              <a href="#"><img src="images/medium01.jpg" width="185" height="185" alt="LG 울트라기어 게이밍모니터" /></a>
+            </li>
+          </ul>
+          <ul>
+            <li>
+              <a href="#"><img src="images/monitor.jpg" width="375" height="375" width="185" height="185"
+                  alt="SNS 제품03" /></a>
+            </li>
+          </ul>
+          <ul>
+            <li>
+              <a href="#"><img src="images/monitor03.jpg" width="185" height="185" alt="SNS 제품04" /></a>
+            </li>
+            <li>
+              <a href="#"><img src="images/refrigerator02.jpg" width="185" height="185" alt="SNS 제품05" /></a>
+            </li>
+            <li>
+              <a href="#"><img src="images/dryer01.jpg" width="185" height="185" alt="SNS 제품06" /></a>
+            </li>
+            <li>
+              <a href="#"><img src="images/dryer02.jpg" width="185" height="185" alt="SNS 제품07" /></a>
+            </li>
+            <li>
+              <a href="#"><img src="images/air_cleaner01.jpg" width="185" height="185" alt="SNS 제품08" /></a>
+            </li>
+            <li>
+              <a href="#"><img src="images/air_cleaner02.jpg" width="185" height="185" alt="SNS 제품09" /></a>
+            </li>
+          </ul>
+        </div>
+
+      </section>
+      <!-- /Section 03 -->
+    </main>
+    <!-- /Contents -->
+    <!-- Footer -->
+    <footer>
+      <div class="footer_information w1300">
+        <div class="footer_left">
+          <nav>
+            <ul class="footer_gnb">
+              <li><a href="#">이용약관&nbsp;&nbsp;|</a></li>
+              <li>
+                <a href="#">&nbsp;&nbsp;쇼핑몰&nbsp;이용안내&nbsp;&nbsp;|</a>
+              </li>
+              <li>
+                <a href="#">&nbsp;&nbsp;쇼핑몰&nbsp;이용안내&nbsp;&nbsp;|</a>
+              </li>
+              <li>
+                <a href="#">&nbsp;&nbsp;개인정보처리방침&nbsp;&nbsp;|</a>
+              </li>
+              <li><a href="#">&nbsp;&nbsp;고객센터&nbsp;&nbsp;|</a></li>
+              <li><a href="#">&nbsp;&nbsp;1:1문의&nbsp;&nbsp;|</a></li>
+              <li><a href="#">&nbsp;&nbsp;매장안내&nbsp;&nbsp;|</a></li>
+            </ul>
+          </nav>
+          <div class="footer_info">
+            <p>
+              주식회사 | HGD | 대표이사 : HGD| <br />
+              사업자등록번호 : 120-21-05435 | 통신판매업신고번호 : 제
+              2021-서울강남-00810호<br />
+              주소 : 서울특별시 강남구 아차산로 123 | 대표전화 : 02-3424-3432
+              | 팩스 : 02-446-7323
+            </p>
+            <p class="footer_escrow">
+              <span>
+                고객님의 안전 거래를 위해 현금 결제시,<br />
+                구매안전 서비스를 이용하실 수 있습니다[가입사실 확인]
+              </span>
+       
+            </p>
+            <p>Copyright &copy; 2022 LG Electronics. All Rights Reserved.</p>
+          </div>
+        </div>
+        <div class="footer_contact">
+          <dl>
+            <dt>고객만족센터</dt>
+            <dd>080-555-9812</dd>
+            <dd>평일 09:00 ~ 18:00 | 점심 13:00 ~ 14:00</dd>
+          </dl>
+          <dl>
+            <dt>BANK INFO</dt>
+            <dd>국민은행 801-32-323236-39</dd>
+            <dd>예금주:(주)황규동</dd>
+          </dl>
+        </div>
+      </div>
+    </footer>
+    <!-- Footer -->
+  </div>
+  <script>
+    $(function () {
+      $('.slide_gallery').bxSlider({
+        auto: true,
+        autoControls: false,
+        autoHover: true,
+        pager: true,
+        // pagerCustom: '.slide_pager',
+        slideWidth: 1920,
+      });
+    });
+
+  </script>
+  <script src="./js/Lg.js"></script>
+</body>
+
+</html>
