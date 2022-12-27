@@ -20,6 +20,8 @@
     <script src="./js/jquery-3.3.1.min.js"></script>
     <script src="./js/prefixfree.min.js"></script>
     <!-- 페이지 JS -->
+    <script src="./js/jquery.bxslider.js"></script>
+    <link rel="stylesheet" href="./css/jquery.bxslider.css">
 
 </head>
 
@@ -53,7 +55,13 @@
         <!-- 2. Slider -->
         <article class="slider">
             <h2 class="slider_img">
-                <img src="./images/bugerking.png" alt="가상이미지">
+                <ul class="slide_gallery">
+                    <li><img src="./images/bugerking.png" alt="가상이미지"></li>
+                    <li><img src="./images/bugerkingslide.png"></li>
+                    <li><img src="./images/bugerkingslide2.png"></li>
+                    <li><img src="./images/bugerkingslide3.png"></li>
+                    <li><img src="./images/bugerkingslide4.png"></li>
+                  </ul>
             </h2>
         </article>
         <!-- /2. Slider -->
@@ -279,7 +287,16 @@
         $('.menu_toggle_btn').click(function () {
             $('.gnb').stop().toggle();
         });
-
+        $(function(){
+                $('.slide_gallery').bxSlider({
+                    auto: true,
+                    autoControls: false,
+                    autoHover: true,
+                    pager: true,
+                    // pagerCustom: '.slide_pager',
+                    
+                });
+            });
 
     </script>
 </body>
