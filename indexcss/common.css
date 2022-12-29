@@ -61,8 +61,8 @@ h3 {font-size: 26px; font-weight: 400; letter-spacing: -1px;}
 .hidden_text {position: absolute; display: inline-block; text-indent: -9999px;}
 
 /* main */
-main {position: relative; margin-bottom: 250px; background-color: #B2C8DF; z-index: 100;}
-.skills {background-color: rgb(46, 117, 181);}
+main {position: relative; margin-bottom: 250px; background-color: #ddd9ff; z-index: 100;}
+.skills {background-color: #bfbbff}
 .skills .skill_list {display: flex; justify-content: center; padding-bottom: 80px;}
 .skills .skill_list > li {width: 25%; color: #766d81; font-size: 26px; letter-spacing: -1px;}
 .skills .skill_list > li + li {margin-left: 15px;}
